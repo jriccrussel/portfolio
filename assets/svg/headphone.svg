@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.659" height="30" viewBox="0 0 35.659 30">
+  <g id="headphone" transform="translate(0 -22.804)">
+    <g id="Group_53" data-name="Group 53" transform="translate(0 22.804)">
+      <g id="Group_52" data-name="Group 52" transform="translate(0 0)">
+        <path id="Path_18" data-name="Path 18" d="M62.743,146.148V158.36a1.316,1.316,0,0,0,2.632,0V146.148a1.316,1.316,0,0,0-2.632,0Z" transform="translate(-54.958 -129.691)" fill="#607eff"/>
+        <path id="Path_19" data-name="Path 19" d="M3.655,52.8h2.9v-14.5a1.841,1.841,0,0,0,.021-.21,11.254,11.254,0,1,1,22.507,0,1.831,1.831,0,0,0,.028.281V52.8h2.9a3.719,3.719,0,0,0,3.653-3.781V41.462a3.765,3.765,0,0,0-2.638-3.629,15.2,15.2,0,0,0-30.389,0A3.762,3.762,0,0,0,0,41.464v7.56A3.72,3.72,0,0,0,3.655,52.8Z" transform="translate(0 -22.804)" fill="#607eff"/>
+        <path id="Path_20" data-name="Path 20" d="M203.454,146.148V158.36a1.316,1.316,0,1,0,2.632,0V146.148a1.316,1.316,0,1,0-2.632,0Z" transform="translate(-178.209 -129.691)" fill="#607eff"/>
+      </g>
+    </g>
+  </g>
+</svg>

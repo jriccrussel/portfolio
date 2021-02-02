@@ -1,0 +1,1984 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav {
+  background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+nav img {
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  border: 8px solid rgba(250, 250, 250, 0.2);
+  position: relative;
+  margin-top: 33px;
+  margin-bottom: 24px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 16px "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+header {
+  display: none;
+  height: 145px;
+  width: 100%;
+  background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+  position: relative;
+}
+
+header img {
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  border: 8px solid rgba(250, 250, 250, 0.2);
+  position: absolute;
+  margin-top: 33px;
+  margin-bottom: 24px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hp-content p {
+  margin-top: 5px !important;
+}
+
+.hp-content p a {
+  color: #607EFF;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+@media (min-width: 319px) {
+  nav {
+    display: none;
+  }
+  header {
+    display: block;
+  }
+  header img {
+    left: 103px;
+  }
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container .case {
+    padding: 0 20px;
+    padding-top: 60px;
+  }
+  .container .case #abt h1 {
+    font: 28px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 15px;
+  }
+  .container .case #abt h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .container .case #abt h5 span {
+    text-transform: uppercase;
+    padding-right: 47px;
+  }
+  .container .case #abt p {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    line-height: 24px;
+    text-align: center;
+  }
+  .container .case #abt .link-profile {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  .container .case #abt .link-profile li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .container .case #abt .link-profile li a {
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    display: block;
+  }
+  .container .case #abt .link-profile li a img {
+    display: block;
+  }
+  .container .case #abt .link-profile li .linkedin {
+    padding: 14px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .linkedin:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .behance {
+    padding: 11px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .behance:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .dribbble {
+    padding: 13px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .dribbble:hover {
+    opacity: 0.8;
+  }
+  .container .case #exp h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #exp h2 img {
+    padding-right: 11px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #exp .gd, .container .case #exp .rm, .container .case #exp .zr, .container .case #exp .rw {
+    padding-top: 50px;
+  }
+  .container .case #exp .gd .title-main, .container .case #exp .rm .title-main, .container .case #exp .zr .title-main, .container .case #exp .rw .title-main, .container .case #exp .hp .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #exp .gd .title-main .col-6, .container .case #exp .rm .title-main .col-6, .container .case #exp .zr .title-main .col-6, .container .case #exp .rw .title-main .col-6, .container .case #exp .hp .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #exp .gd .title-main .col-6 h3, .container .case #exp .rm .title-main .col-6 h3, .container .case #exp .zr .title-main .col-6 h3, .container .case #exp .rw .title-main .col-6 h3, .container .case #exp .hp .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #exp .gd .title-main .col-6 h4, .container .case #exp .rm .title-main .col-6 h4, .container .case #exp .zr .title-main .col-6 h4, .container .case #exp .rw .title-main .col-6 h4, .container .case #exp .hp .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 4px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .container .case #exp .gd .gd-content, .container .case #exp .gd .rm-content, .container .case #exp .gd .zr-content, .container .case #exp .gd .rw-content, .container .case #exp .gd .hp-content, .container .case #exp .rm .gd-content, .container .case #exp .rm .rm-content, .container .case #exp .rm .zr-content, .container .case #exp .rm .rw-content, .container .case #exp .rm .hp-content, .container .case #exp .zr .gd-content, .container .case #exp .zr .rm-content, .container .case #exp .zr .zr-content, .container .case #exp .zr .rw-content, .container .case #exp .zr .hp-content, .container .case #exp .rw .gd-content, .container .case #exp .rw .rm-content, .container .case #exp .rw .zr-content, .container .case #exp .rw .rw-content, .container .case #exp .rw .hp-content, .container .case #exp .hp .gd-content, .container .case #exp .hp .rm-content, .container .case #exp .hp .zr-content, .container .case #exp .hp .rw-content, .container .case #exp .hp .hp-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .case #exp .gd .gd-content .col-12, .container .case #exp .gd .rm-content .col-12, .container .case #exp .gd .zr-content .col-12, .container .case #exp .gd .rw-content .col-12, .container .case #exp .gd .hp-content .col-12, .container .case #exp .rm .gd-content .col-12, .container .case #exp .rm .rm-content .col-12, .container .case #exp .rm .zr-content .col-12, .container .case #exp .rm .rw-content .col-12, .container .case #exp .rm .hp-content .col-12, .container .case #exp .zr .gd-content .col-12, .container .case #exp .zr .rm-content .col-12, .container .case #exp .zr .zr-content .col-12, .container .case #exp .zr .rw-content .col-12, .container .case #exp .zr .hp-content .col-12, .container .case #exp .rw .gd-content .col-12, .container .case #exp .rw .rm-content .col-12, .container .case #exp .rw .zr-content .col-12, .container .case #exp .rw .rw-content .col-12, .container .case #exp .rw .hp-content .col-12, .container .case #exp .hp .gd-content .col-12, .container .case #exp .hp .rm-content .col-12, .container .case #exp .hp .zr-content .col-12, .container .case #exp .hp .rw-content .col-12, .container .case #exp .hp .hp-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #exp .gd .gd-content .col-12 h5, .container .case #exp .gd .rm-content .col-12 h5, .container .case #exp .gd .zr-content .col-12 h5, .container .case #exp .gd .rw-content .col-12 h5, .container .case #exp .gd .hp-content .col-12 h5, .container .case #exp .rm .gd-content .col-12 h5, .container .case #exp .rm .rm-content .col-12 h5, .container .case #exp .rm .zr-content .col-12 h5, .container .case #exp .rm .rw-content .col-12 h5, .container .case #exp .rm .hp-content .col-12 h5, .container .case #exp .zr .gd-content .col-12 h5, .container .case #exp .zr .rm-content .col-12 h5, .container .case #exp .zr .zr-content .col-12 h5, .container .case #exp .zr .rw-content .col-12 h5, .container .case #exp .zr .hp-content .col-12 h5, .container .case #exp .rw .gd-content .col-12 h5, .container .case #exp .rw .rm-content .col-12 h5, .container .case #exp .rw .zr-content .col-12 h5, .container .case #exp .rw .rw-content .col-12 h5, .container .case #exp .rw .hp-content .col-12 h5, .container .case #exp .hp .gd-content .col-12 h5, .container .case #exp .hp .rm-content .col-12 h5, .container .case #exp .hp .zr-content .col-12 h5, .container .case #exp .hp .rw-content .col-12 h5, .container .case #exp .hp .hp-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-12 p, .container .case #exp .gd .rm-content .col-12 p, .container .case #exp .gd .zr-content .col-12 p, .container .case #exp .gd .rw-content .col-12 p, .container .case #exp .gd .hp-content .col-12 p, .container .case #exp .rm .gd-content .col-12 p, .container .case #exp .rm .rm-content .col-12 p, .container .case #exp .rm .zr-content .col-12 p, .container .case #exp .rm .rw-content .col-12 p, .container .case #exp .rm .hp-content .col-12 p, .container .case #exp .zr .gd-content .col-12 p, .container .case #exp .zr .rm-content .col-12 p, .container .case #exp .zr .zr-content .col-12 p, .container .case #exp .zr .rw-content .col-12 p, .container .case #exp .zr .hp-content .col-12 p, .container .case #exp .rw .gd-content .col-12 p, .container .case #exp .rw .rm-content .col-12 p, .container .case #exp .rw .zr-content .col-12 p, .container .case #exp .rw .rw-content .col-12 p, .container .case #exp .rw .hp-content .col-12 p, .container .case #exp .hp .gd-content .col-12 p, .container .case #exp .hp .rm-content .col-12 p, .container .case #exp .hp .zr-content .col-12 p, .container .case #exp .hp .rw-content .col-12 p, .container .case #exp .hp .hp-content .col-12 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #exp .gd .gd-content .col-6, .container .case #exp .gd .rm-content .col-6, .container .case #exp .gd .zr-content .col-6, .container .case #exp .gd .rw-content .col-6, .container .case #exp .gd .hp-content .col-6, .container .case #exp .rm .gd-content .col-6, .container .case #exp .rm .rm-content .col-6, .container .case #exp .rm .zr-content .col-6, .container .case #exp .rm .rw-content .col-6, .container .case #exp .rm .hp-content .col-6, .container .case #exp .zr .gd-content .col-6, .container .case #exp .zr .rm-content .col-6, .container .case #exp .zr .zr-content .col-6, .container .case #exp .zr .rw-content .col-6, .container .case #exp .zr .hp-content .col-6, .container .case #exp .rw .gd-content .col-6, .container .case #exp .rw .rm-content .col-6, .container .case #exp .rw .zr-content .col-6, .container .case #exp .rw .rw-content .col-6, .container .case #exp .rw .hp-content .col-6, .container .case #exp .hp .gd-content .col-6, .container .case #exp .hp .rm-content .col-6, .container .case #exp .hp .zr-content .col-6, .container .case #exp .hp .rw-content .col-6, .container .case #exp .hp .hp-content .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #exp .gd .gd-content .col-6 .pad-top, .container .case #exp .gd .rm-content .col-6 .pad-top, .container .case #exp .gd .zr-content .col-6 .pad-top, .container .case #exp .gd .rw-content .col-6 .pad-top, .container .case #exp .gd .hp-content .col-6 .pad-top, .container .case #exp .rm .gd-content .col-6 .pad-top, .container .case #exp .rm .rm-content .col-6 .pad-top, .container .case #exp .rm .zr-content .col-6 .pad-top, .container .case #exp .rm .rw-content .col-6 .pad-top, .container .case #exp .rm .hp-content .col-6 .pad-top, .container .case #exp .zr .gd-content .col-6 .pad-top, .container .case #exp .zr .rm-content .col-6 .pad-top, .container .case #exp .zr .zr-content .col-6 .pad-top, .container .case #exp .zr .rw-content .col-6 .pad-top, .container .case #exp .zr .hp-content .col-6 .pad-top, .container .case #exp .rw .gd-content .col-6 .pad-top, .container .case #exp .rw .rm-content .col-6 .pad-top, .container .case #exp .rw .zr-content .col-6 .pad-top, .container .case #exp .rw .rw-content .col-6 .pad-top, .container .case #exp .rw .hp-content .col-6 .pad-top, .container .case #exp .hp .gd-content .col-6 .pad-top, .container .case #exp .hp .rm-content .col-6 .pad-top, .container .case #exp .hp .zr-content .col-6 .pad-top, .container .case #exp .hp .rw-content .col-6 .pad-top, .container .case #exp .hp .hp-content .col-6 .pad-top {
+    padding-top: 20px;
+  }
+  .container .case #exp .gd .gd-content .col-6 h5, .container .case #exp .gd .rm-content .col-6 h5, .container .case #exp .gd .zr-content .col-6 h5, .container .case #exp .gd .rw-content .col-6 h5, .container .case #exp .gd .hp-content .col-6 h5, .container .case #exp .rm .gd-content .col-6 h5, .container .case #exp .rm .rm-content .col-6 h5, .container .case #exp .rm .zr-content .col-6 h5, .container .case #exp .rm .rw-content .col-6 h5, .container .case #exp .rm .hp-content .col-6 h5, .container .case #exp .zr .gd-content .col-6 h5, .container .case #exp .zr .rm-content .col-6 h5, .container .case #exp .zr .zr-content .col-6 h5, .container .case #exp .zr .rw-content .col-6 h5, .container .case #exp .zr .hp-content .col-6 h5, .container .case #exp .rw .gd-content .col-6 h5, .container .case #exp .rw .rm-content .col-6 h5, .container .case #exp .rw .zr-content .col-6 h5, .container .case #exp .rw .rw-content .col-6 h5, .container .case #exp .rw .hp-content .col-6 h5, .container .case #exp .hp .gd-content .col-6 h5, .container .case #exp .hp .rm-content .col-6 h5, .container .case #exp .hp .zr-content .col-6 h5, .container .case #exp .hp .rw-content .col-6 h5, .container .case #exp .hp .hp-content .col-6 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-6 p, .container .case #exp .gd .rm-content .col-6 p, .container .case #exp .gd .zr-content .col-6 p, .container .case #exp .gd .rw-content .col-6 p, .container .case #exp .gd .hp-content .col-6 p, .container .case #exp .rm .gd-content .col-6 p, .container .case #exp .rm .rm-content .col-6 p, .container .case #exp .rm .zr-content .col-6 p, .container .case #exp .rm .rw-content .col-6 p, .container .case #exp .rm .hp-content .col-6 p, .container .case #exp .zr .gd-content .col-6 p, .container .case #exp .zr .rm-content .col-6 p, .container .case #exp .zr .zr-content .col-6 p, .container .case #exp .zr .rw-content .col-6 p, .container .case #exp .zr .hp-content .col-6 p, .container .case #exp .rw .gd-content .col-6 p, .container .case #exp .rw .rm-content .col-6 p, .container .case #exp .rw .zr-content .col-6 p, .container .case #exp .rw .rw-content .col-6 p, .container .case #exp .rw .hp-content .col-6 p, .container .case #exp .hp .gd-content .col-6 p, .container .case #exp .hp .rm-content .col-6 p, .container .case #exp .hp .zr-content .col-6 p, .container .case #exp .hp .rw-content .col-6 p, .container .case #exp .hp .hp-content .col-6 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #crt h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #crt h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #crt .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #crt .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #crt .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #crt .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 14px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .container .case #crt .cr-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #crt .cr-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #crt .cr-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #edu h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #edu h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #edu .sec, .container .case #edu .tri {
+    padding-top: 45px;
+  }
+  .container .case #edu .pri .title-main, .container .case #edu .sec .title-main, .container .case #edu .tri .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #edu .pri .title-main .col-6, .container .case #edu .sec .title-main .col-6, .container .case #edu .tri .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #edu .pri .title-main .col-6 h3, .container .case #edu .sec .title-main .col-6 h3, .container .case #edu .tri .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #edu .pri .title-main .col-6 h4, .container .case #edu .sec .title-main .col-6 h4, .container .case #edu .tri .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 14px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .container .case #edu .pri .edu-content, .container .case #edu .pri .sec-content, .container .case #edu .pri .tri-content, .container .case #edu .sec .edu-content, .container .case #edu .sec .sec-content, .container .case #edu .sec .tri-content, .container .case #edu .tri .edu-content, .container .case #edu .tri .sec-content, .container .case #edu .tri .tri-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #edu .pri .edu-content .col-12, .container .case #edu .pri .sec-content .col-12, .container .case #edu .pri .tri-content .col-12, .container .case #edu .sec .edu-content .col-12, .container .case #edu .sec .sec-content .col-12, .container .case #edu .sec .tri-content .col-12, .container .case #edu .tri .edu-content .col-12, .container .case #edu .tri .sec-content .col-12, .container .case #edu .tri .tri-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #edu .pri .edu-content .col-12 h5, .container .case #edu .pri .sec-content .col-12 h5, .container .case #edu .pri .tri-content .col-12 h5, .container .case #edu .sec .edu-content .col-12 h5, .container .case #edu .sec .sec-content .col-12 h5, .container .case #edu .sec .tri-content .col-12 h5, .container .case #edu .tri .edu-content .col-12 h5, .container .case #edu .tri .sec-content .col-12 h5, .container .case #edu .tri .tri-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+  .container .case #edu .pri .edu-content .col-12 p, .container .case #edu .pri .sec-content .col-12 p, .container .case #edu .pri .tri-content .col-12 p, .container .case #edu .sec .edu-content .col-12 p, .container .case #edu .sec .sec-content .col-12 p, .container .case #edu .sec .tri-content .col-12 p, .container .case #edu .tri .edu-content .col-12 p, .container .case #edu .tri .sec-content .col-12 p, .container .case #edu .tri .tri-content .col-12 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #skill h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #skill h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #skill .progress-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .case #skill .progress-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #skill .progress-main .col-6 .pad-top {
+    padding-top: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 80%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 65%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 75%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #inter h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #inter h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #inter p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    padding-bottom: 65px;
+    line-height: 24px;
+  }
+  #scrollToTopButton {
+    position: fixed;
+    bottom: 44px;
+    right: 23px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    font-size: xx-large;
+    outline: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #scrollToTopButton.show {
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 374px) {
+  nav {
+    display: none;
+  }
+  header {
+    display: block;
+  }
+  header img {
+    left: 50%;
+    top: 75%;
+  }
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container .case {
+    padding: 0 20px;
+    padding-top: 60px;
+  }
+  .container .case #abt h1 {
+    font: 28px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 15px;
+  }
+  .container .case #abt h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .container .case #abt h5 span {
+    text-transform: uppercase;
+    padding-right: 47px;
+  }
+  .container .case #abt p {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    line-height: 24px;
+    text-align: center;
+  }
+  .container .case #abt .link-profile {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  .container .case #abt .link-profile li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .container .case #abt .link-profile li a {
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    display: block;
+  }
+  .container .case #abt .link-profile li a img {
+    display: block;
+  }
+  .container .case #abt .link-profile li .linkedin {
+    padding: 14px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .linkedin:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .behance {
+    padding: 11px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .behance:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .dribbble {
+    padding: 13px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .dribbble:hover {
+    opacity: 0.8;
+  }
+  .container .case #exp h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #exp h2 img {
+    padding-right: 11px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #exp .gd, .container .case #exp .rm, .container .case #exp .zr, .container .case #exp .rw {
+    padding-top: 50px;
+  }
+  .container .case #exp .gd .title-main, .container .case #exp .rm .title-main, .container .case #exp .zr .title-main, .container .case #exp .rw .title-main, .container .case #exp .hp .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #exp .gd .title-main .col-6, .container .case #exp .rm .title-main .col-6, .container .case #exp .zr .title-main .col-6, .container .case #exp .rw .title-main .col-6, .container .case #exp .hp .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #exp .gd .title-main .col-6 h3, .container .case #exp .rm .title-main .col-6 h3, .container .case #exp .zr .title-main .col-6 h3, .container .case #exp .rw .title-main .col-6 h3, .container .case #exp .hp .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #exp .gd .title-main .col-6 h4, .container .case #exp .rm .title-main .col-6 h4, .container .case #exp .zr .title-main .col-6 h4, .container .case #exp .rw .title-main .col-6 h4, .container .case #exp .hp .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 4px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .container .case #exp .gd .gd-content, .container .case #exp .gd .rm-content, .container .case #exp .gd .zr-content, .container .case #exp .gd .rw-content, .container .case #exp .gd .hp-content, .container .case #exp .rm .gd-content, .container .case #exp .rm .rm-content, .container .case #exp .rm .zr-content, .container .case #exp .rm .rw-content, .container .case #exp .rm .hp-content, .container .case #exp .zr .gd-content, .container .case #exp .zr .rm-content, .container .case #exp .zr .zr-content, .container .case #exp .zr .rw-content, .container .case #exp .zr .hp-content, .container .case #exp .rw .gd-content, .container .case #exp .rw .rm-content, .container .case #exp .rw .zr-content, .container .case #exp .rw .rw-content, .container .case #exp .rw .hp-content, .container .case #exp .hp .gd-content, .container .case #exp .hp .rm-content, .container .case #exp .hp .zr-content, .container .case #exp .hp .rw-content, .container .case #exp .hp .hp-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .case #exp .gd .gd-content .col-12, .container .case #exp .gd .rm-content .col-12, .container .case #exp .gd .zr-content .col-12, .container .case #exp .gd .rw-content .col-12, .container .case #exp .gd .hp-content .col-12, .container .case #exp .rm .gd-content .col-12, .container .case #exp .rm .rm-content .col-12, .container .case #exp .rm .zr-content .col-12, .container .case #exp .rm .rw-content .col-12, .container .case #exp .rm .hp-content .col-12, .container .case #exp .zr .gd-content .col-12, .container .case #exp .zr .rm-content .col-12, .container .case #exp .zr .zr-content .col-12, .container .case #exp .zr .rw-content .col-12, .container .case #exp .zr .hp-content .col-12, .container .case #exp .rw .gd-content .col-12, .container .case #exp .rw .rm-content .col-12, .container .case #exp .rw .zr-content .col-12, .container .case #exp .rw .rw-content .col-12, .container .case #exp .rw .hp-content .col-12, .container .case #exp .hp .gd-content .col-12, .container .case #exp .hp .rm-content .col-12, .container .case #exp .hp .zr-content .col-12, .container .case #exp .hp .rw-content .col-12, .container .case #exp .hp .hp-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #exp .gd .gd-content .col-12 h5, .container .case #exp .gd .rm-content .col-12 h5, .container .case #exp .gd .zr-content .col-12 h5, .container .case #exp .gd .rw-content .col-12 h5, .container .case #exp .gd .hp-content .col-12 h5, .container .case #exp .rm .gd-content .col-12 h5, .container .case #exp .rm .rm-content .col-12 h5, .container .case #exp .rm .zr-content .col-12 h5, .container .case #exp .rm .rw-content .col-12 h5, .container .case #exp .rm .hp-content .col-12 h5, .container .case #exp .zr .gd-content .col-12 h5, .container .case #exp .zr .rm-content .col-12 h5, .container .case #exp .zr .zr-content .col-12 h5, .container .case #exp .zr .rw-content .col-12 h5, .container .case #exp .zr .hp-content .col-12 h5, .container .case #exp .rw .gd-content .col-12 h5, .container .case #exp .rw .rm-content .col-12 h5, .container .case #exp .rw .zr-content .col-12 h5, .container .case #exp .rw .rw-content .col-12 h5, .container .case #exp .rw .hp-content .col-12 h5, .container .case #exp .hp .gd-content .col-12 h5, .container .case #exp .hp .rm-content .col-12 h5, .container .case #exp .hp .zr-content .col-12 h5, .container .case #exp .hp .rw-content .col-12 h5, .container .case #exp .hp .hp-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-12 p, .container .case #exp .gd .rm-content .col-12 p, .container .case #exp .gd .zr-content .col-12 p, .container .case #exp .gd .rw-content .col-12 p, .container .case #exp .gd .hp-content .col-12 p, .container .case #exp .rm .gd-content .col-12 p, .container .case #exp .rm .rm-content .col-12 p, .container .case #exp .rm .zr-content .col-12 p, .container .case #exp .rm .rw-content .col-12 p, .container .case #exp .rm .hp-content .col-12 p, .container .case #exp .zr .gd-content .col-12 p, .container .case #exp .zr .rm-content .col-12 p, .container .case #exp .zr .zr-content .col-12 p, .container .case #exp .zr .rw-content .col-12 p, .container .case #exp .zr .hp-content .col-12 p, .container .case #exp .rw .gd-content .col-12 p, .container .case #exp .rw .rm-content .col-12 p, .container .case #exp .rw .zr-content .col-12 p, .container .case #exp .rw .rw-content .col-12 p, .container .case #exp .rw .hp-content .col-12 p, .container .case #exp .hp .gd-content .col-12 p, .container .case #exp .hp .rm-content .col-12 p, .container .case #exp .hp .zr-content .col-12 p, .container .case #exp .hp .rw-content .col-12 p, .container .case #exp .hp .hp-content .col-12 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #exp .gd .gd-content .col-6, .container .case #exp .gd .rm-content .col-6, .container .case #exp .gd .zr-content .col-6, .container .case #exp .gd .rw-content .col-6, .container .case #exp .gd .hp-content .col-6, .container .case #exp .rm .gd-content .col-6, .container .case #exp .rm .rm-content .col-6, .container .case #exp .rm .zr-content .col-6, .container .case #exp .rm .rw-content .col-6, .container .case #exp .rm .hp-content .col-6, .container .case #exp .zr .gd-content .col-6, .container .case #exp .zr .rm-content .col-6, .container .case #exp .zr .zr-content .col-6, .container .case #exp .zr .rw-content .col-6, .container .case #exp .zr .hp-content .col-6, .container .case #exp .rw .gd-content .col-6, .container .case #exp .rw .rm-content .col-6, .container .case #exp .rw .zr-content .col-6, .container .case #exp .rw .rw-content .col-6, .container .case #exp .rw .hp-content .col-6, .container .case #exp .hp .gd-content .col-6, .container .case #exp .hp .rm-content .col-6, .container .case #exp .hp .zr-content .col-6, .container .case #exp .hp .rw-content .col-6, .container .case #exp .hp .hp-content .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #exp .gd .gd-content .col-6 .pad-top, .container .case #exp .gd .rm-content .col-6 .pad-top, .container .case #exp .gd .zr-content .col-6 .pad-top, .container .case #exp .gd .rw-content .col-6 .pad-top, .container .case #exp .gd .hp-content .col-6 .pad-top, .container .case #exp .rm .gd-content .col-6 .pad-top, .container .case #exp .rm .rm-content .col-6 .pad-top, .container .case #exp .rm .zr-content .col-6 .pad-top, .container .case #exp .rm .rw-content .col-6 .pad-top, .container .case #exp .rm .hp-content .col-6 .pad-top, .container .case #exp .zr .gd-content .col-6 .pad-top, .container .case #exp .zr .rm-content .col-6 .pad-top, .container .case #exp .zr .zr-content .col-6 .pad-top, .container .case #exp .zr .rw-content .col-6 .pad-top, .container .case #exp .zr .hp-content .col-6 .pad-top, .container .case #exp .rw .gd-content .col-6 .pad-top, .container .case #exp .rw .rm-content .col-6 .pad-top, .container .case #exp .rw .zr-content .col-6 .pad-top, .container .case #exp .rw .rw-content .col-6 .pad-top, .container .case #exp .rw .hp-content .col-6 .pad-top, .container .case #exp .hp .gd-content .col-6 .pad-top, .container .case #exp .hp .rm-content .col-6 .pad-top, .container .case #exp .hp .zr-content .col-6 .pad-top, .container .case #exp .hp .rw-content .col-6 .pad-top, .container .case #exp .hp .hp-content .col-6 .pad-top {
+    padding-top: 20px;
+  }
+  .container .case #exp .gd .gd-content .col-6 h5, .container .case #exp .gd .rm-content .col-6 h5, .container .case #exp .gd .zr-content .col-6 h5, .container .case #exp .gd .rw-content .col-6 h5, .container .case #exp .gd .hp-content .col-6 h5, .container .case #exp .rm .gd-content .col-6 h5, .container .case #exp .rm .rm-content .col-6 h5, .container .case #exp .rm .zr-content .col-6 h5, .container .case #exp .rm .rw-content .col-6 h5, .container .case #exp .rm .hp-content .col-6 h5, .container .case #exp .zr .gd-content .col-6 h5, .container .case #exp .zr .rm-content .col-6 h5, .container .case #exp .zr .zr-content .col-6 h5, .container .case #exp .zr .rw-content .col-6 h5, .container .case #exp .zr .hp-content .col-6 h5, .container .case #exp .rw .gd-content .col-6 h5, .container .case #exp .rw .rm-content .col-6 h5, .container .case #exp .rw .zr-content .col-6 h5, .container .case #exp .rw .rw-content .col-6 h5, .container .case #exp .rw .hp-content .col-6 h5, .container .case #exp .hp .gd-content .col-6 h5, .container .case #exp .hp .rm-content .col-6 h5, .container .case #exp .hp .zr-content .col-6 h5, .container .case #exp .hp .rw-content .col-6 h5, .container .case #exp .hp .hp-content .col-6 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-6 p, .container .case #exp .gd .rm-content .col-6 p, .container .case #exp .gd .zr-content .col-6 p, .container .case #exp .gd .rw-content .col-6 p, .container .case #exp .gd .hp-content .col-6 p, .container .case #exp .rm .gd-content .col-6 p, .container .case #exp .rm .rm-content .col-6 p, .container .case #exp .rm .zr-content .col-6 p, .container .case #exp .rm .rw-content .col-6 p, .container .case #exp .rm .hp-content .col-6 p, .container .case #exp .zr .gd-content .col-6 p, .container .case #exp .zr .rm-content .col-6 p, .container .case #exp .zr .zr-content .col-6 p, .container .case #exp .zr .rw-content .col-6 p, .container .case #exp .zr .hp-content .col-6 p, .container .case #exp .rw .gd-content .col-6 p, .container .case #exp .rw .rm-content .col-6 p, .container .case #exp .rw .zr-content .col-6 p, .container .case #exp .rw .rw-content .col-6 p, .container .case #exp .rw .hp-content .col-6 p, .container .case #exp .hp .gd-content .col-6 p, .container .case #exp .hp .rm-content .col-6 p, .container .case #exp .hp .zr-content .col-6 p, .container .case #exp .hp .rw-content .col-6 p, .container .case #exp .hp .hp-content .col-6 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #crt h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #crt h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #crt .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #crt .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #crt .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #crt .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 14px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .container .case #crt .cr-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #crt .cr-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #crt .cr-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #edu h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #edu h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #edu .sec, .container .case #edu .tri {
+    padding-top: 45px;
+  }
+  .container .case #edu .pri .title-main, .container .case #edu .sec .title-main, .container .case #edu .tri .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #edu .pri .title-main .col-6, .container .case #edu .sec .title-main .col-6, .container .case #edu .tri .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #edu .pri .title-main .col-6 h3, .container .case #edu .sec .title-main .col-6 h3, .container .case #edu .tri .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #edu .pri .title-main .col-6 h4, .container .case #edu .sec .title-main .col-6 h4, .container .case #edu .tri .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 14px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .container .case #edu .pri .edu-content, .container .case #edu .pri .sec-content, .container .case #edu .pri .tri-content, .container .case #edu .sec .edu-content, .container .case #edu .sec .sec-content, .container .case #edu .sec .tri-content, .container .case #edu .tri .edu-content, .container .case #edu .tri .sec-content, .container .case #edu .tri .tri-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #edu .pri .edu-content .col-12, .container .case #edu .pri .sec-content .col-12, .container .case #edu .pri .tri-content .col-12, .container .case #edu .sec .edu-content .col-12, .container .case #edu .sec .sec-content .col-12, .container .case #edu .sec .tri-content .col-12, .container .case #edu .tri .edu-content .col-12, .container .case #edu .tri .sec-content .col-12, .container .case #edu .tri .tri-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #edu .pri .edu-content .col-12 h5, .container .case #edu .pri .sec-content .col-12 h5, .container .case #edu .pri .tri-content .col-12 h5, .container .case #edu .sec .edu-content .col-12 h5, .container .case #edu .sec .sec-content .col-12 h5, .container .case #edu .sec .tri-content .col-12 h5, .container .case #edu .tri .edu-content .col-12 h5, .container .case #edu .tri .sec-content .col-12 h5, .container .case #edu .tri .tri-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+  .container .case #edu .pri .edu-content .col-12 p, .container .case #edu .pri .sec-content .col-12 p, .container .case #edu .pri .tri-content .col-12 p, .container .case #edu .sec .edu-content .col-12 p, .container .case #edu .sec .sec-content .col-12 p, .container .case #edu .sec .tri-content .col-12 p, .container .case #edu .tri .edu-content .col-12 p, .container .case #edu .tri .sec-content .col-12 p, .container .case #edu .tri .tri-content .col-12 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #skill h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #skill h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #skill .progress-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .case #skill .progress-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #skill .progress-main .col-6 .pad-top {
+    padding-top: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 80%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 65%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 75%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #inter h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #inter h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #inter p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    padding-bottom: 65px;
+    line-height: 24px;
+  }
+  #scrollToTopButton {
+    position: fixed;
+    bottom: 44px;
+    right: 23px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    font-size: xx-large;
+    outline: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #scrollToTopButton.show {
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 767px) {
+  nav {
+    display: none;
+  }
+  header {
+    display: block;
+  }
+  header img {
+    top: 20px;
+    left: 305px;
+  }
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container .case {
+    padding: 0 34px;
+    padding-top: 60px;
+  }
+  .container .case #abt h1 {
+    font: 46px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 15px;
+  }
+  .container .case #abt h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .container .case #abt h5 span {
+    text-transform: uppercase;
+    padding-right: 47px;
+  }
+  .container .case #abt p {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    line-height: 24px;
+    text-align: center;
+  }
+  .container .case #abt .link-profile {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  .container .case #abt .link-profile li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .container .case #abt .link-profile li a {
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    display: block;
+  }
+  .container .case #abt .link-profile li a img {
+    display: block;
+  }
+  .container .case #abt .link-profile li .linkedin {
+    padding: 14px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .linkedin:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .behance {
+    padding: 11px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .behance:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .dribbble {
+    padding: 13px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .dribbble:hover {
+    opacity: 0.8;
+  }
+  .container .case #exp h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #exp h2 img {
+    padding-right: 11px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #exp .gd, .container .case #exp .rm, .container .case #exp .zr, .container .case #exp .rw {
+    padding-top: 50px;
+  }
+  .container .case #exp .gd .title-main, .container .case #exp .rm .title-main, .container .case #exp .zr .title-main, .container .case #exp .rw .title-main, .container .case #exp .hp .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #exp .gd .title-main .col-6, .container .case #exp .rm .title-main .col-6, .container .case #exp .zr .title-main .col-6, .container .case #exp .rw .title-main .col-6, .container .case #exp .hp .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #exp .gd .title-main .col-6 h3, .container .case #exp .rm .title-main .col-6 h3, .container .case #exp .zr .title-main .col-6 h3, .container .case #exp .rw .title-main .col-6 h3, .container .case #exp .hp .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #exp .gd .title-main .col-6 h4, .container .case #exp .rm .title-main .col-6 h4, .container .case #exp .zr .title-main .col-6 h4, .container .case #exp .rw .title-main .col-6 h4, .container .case #exp .hp .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 4px;
+    padding-right: 18px;
+    margin: 0;
+  }
+  .container .case #exp .gd .gd-content, .container .case #exp .gd .rm-content, .container .case #exp .gd .zr-content, .container .case #exp .gd .rw-content, .container .case #exp .gd .hp-content, .container .case #exp .rm .gd-content, .container .case #exp .rm .rm-content, .container .case #exp .rm .zr-content, .container .case #exp .rm .rw-content, .container .case #exp .rm .hp-content, .container .case #exp .zr .gd-content, .container .case #exp .zr .rm-content, .container .case #exp .zr .zr-content, .container .case #exp .zr .rw-content, .container .case #exp .zr .hp-content, .container .case #exp .rw .gd-content, .container .case #exp .rw .rm-content, .container .case #exp .rw .zr-content, .container .case #exp .rw .rw-content, .container .case #exp .rw .hp-content, .container .case #exp .hp .gd-content, .container .case #exp .hp .rm-content, .container .case #exp .hp .zr-content, .container .case #exp .hp .rw-content, .container .case #exp .hp .hp-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #exp .gd .gd-content .col-12, .container .case #exp .gd .rm-content .col-12, .container .case #exp .gd .zr-content .col-12, .container .case #exp .gd .rw-content .col-12, .container .case #exp .gd .hp-content .col-12, .container .case #exp .rm .gd-content .col-12, .container .case #exp .rm .rm-content .col-12, .container .case #exp .rm .zr-content .col-12, .container .case #exp .rm .rw-content .col-12, .container .case #exp .rm .hp-content .col-12, .container .case #exp .zr .gd-content .col-12, .container .case #exp .zr .rm-content .col-12, .container .case #exp .zr .zr-content .col-12, .container .case #exp .zr .rw-content .col-12, .container .case #exp .zr .hp-content .col-12, .container .case #exp .rw .gd-content .col-12, .container .case #exp .rw .rm-content .col-12, .container .case #exp .rw .zr-content .col-12, .container .case #exp .rw .rw-content .col-12, .container .case #exp .rw .hp-content .col-12, .container .case #exp .hp .gd-content .col-12, .container .case #exp .hp .rm-content .col-12, .container .case #exp .hp .zr-content .col-12, .container .case #exp .hp .rw-content .col-12, .container .case #exp .hp .hp-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #exp .gd .gd-content .col-12 h5, .container .case #exp .gd .rm-content .col-12 h5, .container .case #exp .gd .zr-content .col-12 h5, .container .case #exp .gd .rw-content .col-12 h5, .container .case #exp .gd .hp-content .col-12 h5, .container .case #exp .rm .gd-content .col-12 h5, .container .case #exp .rm .rm-content .col-12 h5, .container .case #exp .rm .zr-content .col-12 h5, .container .case #exp .rm .rw-content .col-12 h5, .container .case #exp .rm .hp-content .col-12 h5, .container .case #exp .zr .gd-content .col-12 h5, .container .case #exp .zr .rm-content .col-12 h5, .container .case #exp .zr .zr-content .col-12 h5, .container .case #exp .zr .rw-content .col-12 h5, .container .case #exp .zr .hp-content .col-12 h5, .container .case #exp .rw .gd-content .col-12 h5, .container .case #exp .rw .rm-content .col-12 h5, .container .case #exp .rw .zr-content .col-12 h5, .container .case #exp .rw .rw-content .col-12 h5, .container .case #exp .rw .hp-content .col-12 h5, .container .case #exp .hp .gd-content .col-12 h5, .container .case #exp .hp .rm-content .col-12 h5, .container .case #exp .hp .zr-content .col-12 h5, .container .case #exp .hp .rw-content .col-12 h5, .container .case #exp .hp .hp-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-12 p, .container .case #exp .gd .rm-content .col-12 p, .container .case #exp .gd .zr-content .col-12 p, .container .case #exp .gd .rw-content .col-12 p, .container .case #exp .gd .hp-content .col-12 p, .container .case #exp .rm .gd-content .col-12 p, .container .case #exp .rm .rm-content .col-12 p, .container .case #exp .rm .zr-content .col-12 p, .container .case #exp .rm .rw-content .col-12 p, .container .case #exp .rm .hp-content .col-12 p, .container .case #exp .zr .gd-content .col-12 p, .container .case #exp .zr .rm-content .col-12 p, .container .case #exp .zr .zr-content .col-12 p, .container .case #exp .zr .rw-content .col-12 p, .container .case #exp .zr .hp-content .col-12 p, .container .case #exp .rw .gd-content .col-12 p, .container .case #exp .rw .rm-content .col-12 p, .container .case #exp .rw .zr-content .col-12 p, .container .case #exp .rw .rw-content .col-12 p, .container .case #exp .rw .hp-content .col-12 p, .container .case #exp .hp .gd-content .col-12 p, .container .case #exp .hp .rm-content .col-12 p, .container .case #exp .hp .zr-content .col-12 p, .container .case #exp .hp .rw-content .col-12 p, .container .case #exp .hp .hp-content .col-12 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #exp .gd .gd-content .col-6, .container .case #exp .gd .rm-content .col-6, .container .case #exp .gd .zr-content .col-6, .container .case #exp .gd .rw-content .col-6, .container .case #exp .gd .hp-content .col-6, .container .case #exp .rm .gd-content .col-6, .container .case #exp .rm .rm-content .col-6, .container .case #exp .rm .zr-content .col-6, .container .case #exp .rm .rw-content .col-6, .container .case #exp .rm .hp-content .col-6, .container .case #exp .zr .gd-content .col-6, .container .case #exp .zr .rm-content .col-6, .container .case #exp .zr .zr-content .col-6, .container .case #exp .zr .rw-content .col-6, .container .case #exp .zr .hp-content .col-6, .container .case #exp .rw .gd-content .col-6, .container .case #exp .rw .rm-content .col-6, .container .case #exp .rw .zr-content .col-6, .container .case #exp .rw .rw-content .col-6, .container .case #exp .rw .hp-content .col-6, .container .case #exp .hp .gd-content .col-6, .container .case #exp .hp .rm-content .col-6, .container .case #exp .hp .zr-content .col-6, .container .case #exp .hp .rw-content .col-6, .container .case #exp .hp .hp-content .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #exp .gd .gd-content .col-6 .pad-top, .container .case #exp .gd .rm-content .col-6 .pad-top, .container .case #exp .gd .zr-content .col-6 .pad-top, .container .case #exp .gd .rw-content .col-6 .pad-top, .container .case #exp .gd .hp-content .col-6 .pad-top, .container .case #exp .rm .gd-content .col-6 .pad-top, .container .case #exp .rm .rm-content .col-6 .pad-top, .container .case #exp .rm .zr-content .col-6 .pad-top, .container .case #exp .rm .rw-content .col-6 .pad-top, .container .case #exp .rm .hp-content .col-6 .pad-top, .container .case #exp .zr .gd-content .col-6 .pad-top, .container .case #exp .zr .rm-content .col-6 .pad-top, .container .case #exp .zr .zr-content .col-6 .pad-top, .container .case #exp .zr .rw-content .col-6 .pad-top, .container .case #exp .zr .hp-content .col-6 .pad-top, .container .case #exp .rw .gd-content .col-6 .pad-top, .container .case #exp .rw .rm-content .col-6 .pad-top, .container .case #exp .rw .zr-content .col-6 .pad-top, .container .case #exp .rw .rw-content .col-6 .pad-top, .container .case #exp .rw .hp-content .col-6 .pad-top, .container .case #exp .hp .gd-content .col-6 .pad-top, .container .case #exp .hp .rm-content .col-6 .pad-top, .container .case #exp .hp .zr-content .col-6 .pad-top, .container .case #exp .hp .rw-content .col-6 .pad-top, .container .case #exp .hp .hp-content .col-6 .pad-top {
+    padding-top: 8px;
+  }
+  .container .case #exp .gd .gd-content .col-6 h5, .container .case #exp .gd .rm-content .col-6 h5, .container .case #exp .gd .zr-content .col-6 h5, .container .case #exp .gd .rw-content .col-6 h5, .container .case #exp .gd .hp-content .col-6 h5, .container .case #exp .rm .gd-content .col-6 h5, .container .case #exp .rm .rm-content .col-6 h5, .container .case #exp .rm .zr-content .col-6 h5, .container .case #exp .rm .rw-content .col-6 h5, .container .case #exp .rm .hp-content .col-6 h5, .container .case #exp .zr .gd-content .col-6 h5, .container .case #exp .zr .rm-content .col-6 h5, .container .case #exp .zr .zr-content .col-6 h5, .container .case #exp .zr .rw-content .col-6 h5, .container .case #exp .zr .hp-content .col-6 h5, .container .case #exp .rw .gd-content .col-6 h5, .container .case #exp .rw .rm-content .col-6 h5, .container .case #exp .rw .zr-content .col-6 h5, .container .case #exp .rw .rw-content .col-6 h5, .container .case #exp .rw .hp-content .col-6 h5, .container .case #exp .hp .gd-content .col-6 h5, .container .case #exp .hp .rm-content .col-6 h5, .container .case #exp .hp .zr-content .col-6 h5, .container .case #exp .hp .rw-content .col-6 h5, .container .case #exp .hp .hp-content .col-6 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-6 p, .container .case #exp .gd .rm-content .col-6 p, .container .case #exp .gd .zr-content .col-6 p, .container .case #exp .gd .rw-content .col-6 p, .container .case #exp .gd .hp-content .col-6 p, .container .case #exp .rm .gd-content .col-6 p, .container .case #exp .rm .rm-content .col-6 p, .container .case #exp .rm .zr-content .col-6 p, .container .case #exp .rm .rw-content .col-6 p, .container .case #exp .rm .hp-content .col-6 p, .container .case #exp .zr .gd-content .col-6 p, .container .case #exp .zr .rm-content .col-6 p, .container .case #exp .zr .zr-content .col-6 p, .container .case #exp .zr .rw-content .col-6 p, .container .case #exp .zr .hp-content .col-6 p, .container .case #exp .rw .gd-content .col-6 p, .container .case #exp .rw .rm-content .col-6 p, .container .case #exp .rw .zr-content .col-6 p, .container .case #exp .rw .rw-content .col-6 p, .container .case #exp .rw .hp-content .col-6 p, .container .case #exp .hp .gd-content .col-6 p, .container .case #exp .hp .rm-content .col-6 p, .container .case #exp .hp .zr-content .col-6 p, .container .case #exp .hp .rw-content .col-6 p, .container .case #exp .hp .hp-content .col-6 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #crt h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #crt h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #crt .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #crt .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #crt .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #crt .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 4px;
+    padding-right: 18px;
+    margin: 0;
+  }
+  .container .case #crt .cr-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #crt .cr-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #crt .cr-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #edu h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #edu h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #edu .sec, .container .case #edu .tri {
+    padding-top: 45px;
+  }
+  .container .case #edu .pri .title-main, .container .case #edu .sec .title-main, .container .case #edu .tri .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #edu .pri .title-main .col-6, .container .case #edu .sec .title-main .col-6, .container .case #edu .tri .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #edu .pri .title-main .col-6 h3, .container .case #edu .sec .title-main .col-6 h3, .container .case #edu .tri .title-main .col-6 h3 {
+    font: 22px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #edu .pri .title-main .col-6 h4, .container .case #edu .sec .title-main .col-6 h4, .container .case #edu .tri .title-main .col-6 h4 {
+    text-align: right;
+    font: 16px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 6px;
+    padding-right: 18px;
+    margin: 0;
+  }
+  .container .case #edu .pri .edu-content, .container .case #edu .pri .sec-content, .container .case #edu .pri .tri-content, .container .case #edu .sec .edu-content, .container .case #edu .sec .sec-content, .container .case #edu .sec .tri-content, .container .case #edu .tri .edu-content, .container .case #edu .tri .sec-content, .container .case #edu .tri .tri-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #edu .pri .edu-content .col-12, .container .case #edu .pri .sec-content .col-12, .container .case #edu .pri .tri-content .col-12, .container .case #edu .sec .edu-content .col-12, .container .case #edu .sec .sec-content .col-12, .container .case #edu .sec .tri-content .col-12, .container .case #edu .tri .edu-content .col-12, .container .case #edu .tri .sec-content .col-12, .container .case #edu .tri .tri-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #edu .pri .edu-content .col-12 h5, .container .case #edu .pri .sec-content .col-12 h5, .container .case #edu .pri .tri-content .col-12 h5, .container .case #edu .sec .edu-content .col-12 h5, .container .case #edu .sec .sec-content .col-12 h5, .container .case #edu .sec .tri-content .col-12 h5, .container .case #edu .tri .edu-content .col-12 h5, .container .case #edu .tri .sec-content .col-12 h5, .container .case #edu .tri .tri-content .col-12 h5 {
+    font: 18px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+  .container .case #edu .pri .edu-content .col-12 p, .container .case #edu .pri .sec-content .col-12 p, .container .case #edu .pri .tri-content .col-12 p, .container .case #edu .sec .edu-content .col-12 p, .container .case #edu .sec .sec-content .col-12 p, .container .case #edu .sec .tri-content .col-12 p, .container .case #edu .tri .edu-content .col-12 p, .container .case #edu .tri .sec-content .col-12 p, .container .case #edu .tri .tri-content .col-12 p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #skill h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #skill h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #skill .progress-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .case #skill .progress-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #skill .progress-main .col-6 .pad-top {
+    padding-top: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 80%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 65%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border {
+    width: 100%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 75%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #inter h2 {
+    font: 26px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #inter h2 img {
+    padding-right: 7px;
+    height: 20px;
+    width: auto;
+  }
+  .container .case #inter p {
+    font: 14px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    padding-bottom: 65px;
+    line-height: 24px;
+  }
+  #scrollToTopButton {
+    position: fixed;
+    bottom: 62px;
+    right: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    font-size: xx-large;
+    outline: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #scrollToTopButton.show {
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1139px) {
+  #scroll_to_top_id {
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+  }
+  nav {
+    display: block;
+  }
+  header {
+    display: none;
+  }
+  .container {
+    margin-left: 280px;
+  }
+  .container .case {
+    padding: 0 43px;
+    padding-top: 60px;
+  }
+  .container .case #abt h1 {
+    font: 60px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+  }
+  .container .case #abt h5 {
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    text-align: left;
+  }
+  .container .case #abt h5 span {
+    text-transform: uppercase;
+    padding-right: 47px;
+  }
+  .container .case #abt p {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 26px;
+    text-align: left;
+    font: 16px "Open Sans", sans-serif;
+    color: #707070;
+    line-height: 24px;
+  }
+  .container .case #abt .link-profile {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .container .case #abt .link-profile li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .container .case #abt .link-profile li a {
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    display: block;
+  }
+  .container .case #abt .link-profile li a img {
+    display: block;
+  }
+  .container .case #abt .link-profile li .linkedin {
+    padding: 14px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .linkedin:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .behance {
+    padding: 11px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .behance:hover {
+    opacity: 0.8;
+  }
+  .container .case #abt .link-profile li .dribbble {
+    padding: 13px;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .case #abt .link-profile li .dribbble:hover {
+    opacity: 0.8;
+  }
+  .container .case #exp h2 {
+    font: 40px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 90px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #exp h2 img {
+    padding-right: 13px;
+  }
+  .container .case #exp .gd, .container .case #exp .rm, .container .case #exp .zr, .container .case #exp .rw {
+    padding-top: 45px;
+  }
+  .container .case #exp .gd .title-main, .container .case #exp .rm .title-main, .container .case #exp .zr .title-main, .container .case #exp .rw .title-main, .container .case #exp .hp .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #exp .gd .title-main .col-6, .container .case #exp .rm .title-main .col-6, .container .case #exp .zr .title-main .col-6, .container .case #exp .rw .title-main .col-6, .container .case #exp .hp .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #exp .gd .title-main .col-6 h3, .container .case #exp .rm .title-main .col-6 h3, .container .case #exp .zr .title-main .col-6 h3, .container .case #exp .rw .title-main .col-6 h3, .container .case #exp .hp .title-main .col-6 h3 {
+    font: 32px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #exp .gd .title-main .col-6 h4, .container .case #exp .rm .title-main .col-6 h4, .container .case #exp .zr .title-main .col-6 h4, .container .case #exp .rw .title-main .col-6 h4, .container .case #exp .hp .title-main .col-6 h4 {
+    text-align: right;
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 6px;
+    padding-right: 41px;
+    margin: 0;
+  }
+  .container .case #exp .gd .gd-content, .container .case #exp .gd .rm-content, .container .case #exp .gd .zr-content, .container .case #exp .gd .rw-content, .container .case #exp .gd .hp-content, .container .case #exp .rm .gd-content, .container .case #exp .rm .rm-content, .container .case #exp .rm .zr-content, .container .case #exp .rm .rw-content, .container .case #exp .rm .hp-content, .container .case #exp .zr .gd-content, .container .case #exp .zr .rm-content, .container .case #exp .zr .zr-content, .container .case #exp .zr .rw-content, .container .case #exp .zr .hp-content, .container .case #exp .rw .gd-content, .container .case #exp .rw .rm-content, .container .case #exp .rw .zr-content, .container .case #exp .rw .rw-content, .container .case #exp .rw .hp-content, .container .case #exp .hp .gd-content, .container .case #exp .hp .rm-content, .container .case #exp .hp .zr-content, .container .case #exp .hp .rw-content, .container .case #exp .hp .hp-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #exp .gd .gd-content .col-12, .container .case #exp .gd .rm-content .col-12, .container .case #exp .gd .zr-content .col-12, .container .case #exp .gd .rw-content .col-12, .container .case #exp .gd .hp-content .col-12, .container .case #exp .rm .gd-content .col-12, .container .case #exp .rm .rm-content .col-12, .container .case #exp .rm .zr-content .col-12, .container .case #exp .rm .rw-content .col-12, .container .case #exp .rm .hp-content .col-12, .container .case #exp .zr .gd-content .col-12, .container .case #exp .zr .rm-content .col-12, .container .case #exp .zr .zr-content .col-12, .container .case #exp .zr .rw-content .col-12, .container .case #exp .zr .hp-content .col-12, .container .case #exp .rw .gd-content .col-12, .container .case #exp .rw .rm-content .col-12, .container .case #exp .rw .zr-content .col-12, .container .case #exp .rw .rw-content .col-12, .container .case #exp .rw .hp-content .col-12, .container .case #exp .hp .gd-content .col-12, .container .case #exp .hp .rm-content .col-12, .container .case #exp .hp .zr-content .col-12, .container .case #exp .hp .rw-content .col-12, .container .case #exp .hp .hp-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #exp .gd .gd-content .col-12 h5, .container .case #exp .gd .rm-content .col-12 h5, .container .case #exp .gd .zr-content .col-12 h5, .container .case #exp .gd .rw-content .col-12 h5, .container .case #exp .gd .hp-content .col-12 h5, .container .case #exp .rm .gd-content .col-12 h5, .container .case #exp .rm .rm-content .col-12 h5, .container .case #exp .rm .zr-content .col-12 h5, .container .case #exp .rm .rw-content .col-12 h5, .container .case #exp .rm .hp-content .col-12 h5, .container .case #exp .zr .gd-content .col-12 h5, .container .case #exp .zr .rm-content .col-12 h5, .container .case #exp .zr .zr-content .col-12 h5, .container .case #exp .zr .rw-content .col-12 h5, .container .case #exp .zr .hp-content .col-12 h5, .container .case #exp .rw .gd-content .col-12 h5, .container .case #exp .rw .rm-content .col-12 h5, .container .case #exp .rw .zr-content .col-12 h5, .container .case #exp .rw .rw-content .col-12 h5, .container .case #exp .rw .hp-content .col-12 h5, .container .case #exp .hp .gd-content .col-12 h5, .container .case #exp .hp .rm-content .col-12 h5, .container .case #exp .hp .zr-content .col-12 h5, .container .case #exp .hp .rw-content .col-12 h5, .container .case #exp .hp .hp-content .col-12 h5 {
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-12 p, .container .case #exp .gd .rm-content .col-12 p, .container .case #exp .gd .zr-content .col-12 p, .container .case #exp .gd .rw-content .col-12 p, .container .case #exp .gd .hp-content .col-12 p, .container .case #exp .rm .gd-content .col-12 p, .container .case #exp .rm .rm-content .col-12 p, .container .case #exp .rm .zr-content .col-12 p, .container .case #exp .rm .rw-content .col-12 p, .container .case #exp .rm .hp-content .col-12 p, .container .case #exp .zr .gd-content .col-12 p, .container .case #exp .zr .rm-content .col-12 p, .container .case #exp .zr .zr-content .col-12 p, .container .case #exp .zr .rw-content .col-12 p, .container .case #exp .zr .hp-content .col-12 p, .container .case #exp .rw .gd-content .col-12 p, .container .case #exp .rw .rm-content .col-12 p, .container .case #exp .rw .zr-content .col-12 p, .container .case #exp .rw .rw-content .col-12 p, .container .case #exp .rw .hp-content .col-12 p, .container .case #exp .hp .gd-content .col-12 p, .container .case #exp .hp .rm-content .col-12 p, .container .case #exp .hp .zr-content .col-12 p, .container .case #exp .hp .rw-content .col-12 p, .container .case #exp .hp .hp-content .col-12 p {
+    font: 16px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #exp .gd .gd-content .col-6, .container .case #exp .gd .rm-content .col-6, .container .case #exp .gd .zr-content .col-6, .container .case #exp .gd .rw-content .col-6, .container .case #exp .gd .hp-content .col-6, .container .case #exp .rm .gd-content .col-6, .container .case #exp .rm .rm-content .col-6, .container .case #exp .rm .zr-content .col-6, .container .case #exp .rm .rw-content .col-6, .container .case #exp .rm .hp-content .col-6, .container .case #exp .zr .gd-content .col-6, .container .case #exp .zr .rm-content .col-6, .container .case #exp .zr .zr-content .col-6, .container .case #exp .zr .rw-content .col-6, .container .case #exp .zr .hp-content .col-6, .container .case #exp .rw .gd-content .col-6, .container .case #exp .rw .rm-content .col-6, .container .case #exp .rw .zr-content .col-6, .container .case #exp .rw .rw-content .col-6, .container .case #exp .rw .hp-content .col-6, .container .case #exp .hp .gd-content .col-6, .container .case #exp .hp .rm-content .col-6, .container .case #exp .hp .zr-content .col-6, .container .case #exp .hp .rw-content .col-6, .container .case #exp .hp .hp-content .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #exp .gd .gd-content .col-6 .pad-top, .container .case #exp .gd .rm-content .col-6 .pad-top, .container .case #exp .gd .zr-content .col-6 .pad-top, .container .case #exp .gd .rw-content .col-6 .pad-top, .container .case #exp .gd .hp-content .col-6 .pad-top, .container .case #exp .rm .gd-content .col-6 .pad-top, .container .case #exp .rm .rm-content .col-6 .pad-top, .container .case #exp .rm .zr-content .col-6 .pad-top, .container .case #exp .rm .rw-content .col-6 .pad-top, .container .case #exp .rm .hp-content .col-6 .pad-top, .container .case #exp .zr .gd-content .col-6 .pad-top, .container .case #exp .zr .rm-content .col-6 .pad-top, .container .case #exp .zr .zr-content .col-6 .pad-top, .container .case #exp .zr .rw-content .col-6 .pad-top, .container .case #exp .zr .hp-content .col-6 .pad-top, .container .case #exp .rw .gd-content .col-6 .pad-top, .container .case #exp .rw .rm-content .col-6 .pad-top, .container .case #exp .rw .zr-content .col-6 .pad-top, .container .case #exp .rw .rw-content .col-6 .pad-top, .container .case #exp .rw .hp-content .col-6 .pad-top, .container .case #exp .hp .gd-content .col-6 .pad-top, .container .case #exp .hp .rm-content .col-6 .pad-top, .container .case #exp .hp .zr-content .col-6 .pad-top, .container .case #exp .hp .rw-content .col-6 .pad-top, .container .case #exp .hp .hp-content .col-6 .pad-top {
+    padding-top: 8px;
+  }
+  .container .case #exp .gd .gd-content .col-6 h5, .container .case #exp .gd .rm-content .col-6 h5, .container .case #exp .gd .zr-content .col-6 h5, .container .case #exp .gd .rw-content .col-6 h5, .container .case #exp .gd .hp-content .col-6 h5, .container .case #exp .rm .gd-content .col-6 h5, .container .case #exp .rm .rm-content .col-6 h5, .container .case #exp .rm .zr-content .col-6 h5, .container .case #exp .rm .rw-content .col-6 h5, .container .case #exp .rm .hp-content .col-6 h5, .container .case #exp .zr .gd-content .col-6 h5, .container .case #exp .zr .rm-content .col-6 h5, .container .case #exp .zr .zr-content .col-6 h5, .container .case #exp .zr .rw-content .col-6 h5, .container .case #exp .zr .hp-content .col-6 h5, .container .case #exp .rw .gd-content .col-6 h5, .container .case #exp .rw .rm-content .col-6 h5, .container .case #exp .rw .zr-content .col-6 h5, .container .case #exp .rw .rw-content .col-6 h5, .container .case #exp .rw .hp-content .col-6 h5, .container .case #exp .hp .gd-content .col-6 h5, .container .case #exp .hp .rm-content .col-6 h5, .container .case #exp .hp .zr-content .col-6 h5, .container .case #exp .hp .rw-content .col-6 h5, .container .case #exp .hp .hp-content .col-6 h5 {
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #exp .gd .gd-content .col-6 p, .container .case #exp .gd .rm-content .col-6 p, .container .case #exp .gd .zr-content .col-6 p, .container .case #exp .gd .rw-content .col-6 p, .container .case #exp .gd .hp-content .col-6 p, .container .case #exp .rm .gd-content .col-6 p, .container .case #exp .rm .rm-content .col-6 p, .container .case #exp .rm .zr-content .col-6 p, .container .case #exp .rm .rw-content .col-6 p, .container .case #exp .rm .hp-content .col-6 p, .container .case #exp .zr .gd-content .col-6 p, .container .case #exp .zr .rm-content .col-6 p, .container .case #exp .zr .zr-content .col-6 p, .container .case #exp .zr .rw-content .col-6 p, .container .case #exp .zr .hp-content .col-6 p, .container .case #exp .rw .gd-content .col-6 p, .container .case #exp .rw .rm-content .col-6 p, .container .case #exp .rw .zr-content .col-6 p, .container .case #exp .rw .rw-content .col-6 p, .container .case #exp .rw .hp-content .col-6 p, .container .case #exp .hp .gd-content .col-6 p, .container .case #exp .hp .rm-content .col-6 p, .container .case #exp .hp .zr-content .col-6 p, .container .case #exp .hp .rw-content .col-6 p, .container .case #exp .hp .hp-content .col-6 p {
+    font: 16px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #crt h2 {
+    font: 40px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 90px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #crt h2 img {
+    padding-right: 8px;
+  }
+  .container .case #crt .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #crt .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #crt .title-main .col-6 h3 {
+    font: 32px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #crt .title-main .col-6 h4 {
+    text-align: right;
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 6px;
+    padding-right: 41px;
+    margin: 0;
+  }
+  .container .case #crt .cr-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #crt .cr-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #crt .cr-content .col-12 h5 {
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #edu h2 {
+    font: 40px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 90px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #edu h2 img {
+    padding-right: 8px;
+  }
+  .container .case #edu .sec, .container .case #edu .tri {
+    padding-top: 45px;
+  }
+  .container .case #edu .pri .title-main, .container .case #edu .sec .title-main, .container .case #edu .tri .title-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px #607EFF solid;
+  }
+  .container .case #edu .pri .title-main .col-6, .container .case #edu .sec .title-main .col-6, .container .case #edu .tri .title-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #edu .pri .title-main .col-6 h3, .container .case #edu .sec .title-main .col-6 h3, .container .case #edu .tri .title-main .col-6 h3 {
+    font: 32px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #edu .pri .title-main .col-6 h4, .container .case #edu .sec .title-main .col-6 h4, .container .case #edu .tri .title-main .col-6 h4 {
+    text-align: right;
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #607EFF;
+    padding-top: 6px;
+    padding-right: 41px;
+    margin: 0;
+  }
+  .container .case #edu .pri .edu-content, .container .case #edu .pri .sec-content, .container .case #edu .pri .tri-content, .container .case #edu .sec .edu-content, .container .case #edu .sec .sec-content, .container .case #edu .sec .tri-content, .container .case #edu .tri .edu-content, .container .case #edu .tri .sec-content, .container .case #edu .tri .tri-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #edu .pri .edu-content .col-12, .container .case #edu .pri .sec-content .col-12, .container .case #edu .pri .tri-content .col-12, .container .case #edu .sec .edu-content .col-12, .container .case #edu .sec .sec-content .col-12, .container .case #edu .sec .tri-content .col-12, .container .case #edu .tri .edu-content .col-12, .container .case #edu .tri .sec-content .col-12, .container .case #edu .tri .tri-content .col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .container .case #edu .pri .edu-content .col-12 h5, .container .case #edu .pri .sec-content .col-12 h5, .container .case #edu .pri .tri-content .col-12 h5, .container .case #edu .sec .edu-content .col-12 h5, .container .case #edu .sec .sec-content .col-12 h5, .container .case #edu .sec .tri-content .col-12 h5, .container .case #edu .tri .edu-content .col-12 h5, .container .case #edu .tri .sec-content .col-12 h5, .container .case #edu .tri .tri-content .col-12 h5 {
+    font: 24px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #707070;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .container .case #edu .pri .edu-content .col-12 p, .container .case #edu .pri .sec-content .col-12 p, .container .case #edu .pri .tri-content .col-12 p, .container .case #edu .sec .edu-content .col-12 p, .container .case #edu .sec .sec-content .col-12 p, .container .case #edu .sec .tri-content .col-12 p, .container .case #edu .tri .edu-content .col-12 p, .container .case #edu .tri .sec-content .col-12 p, .container .case #edu .tri .tri-content .col-12 p {
+    font: 16px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    line-height: 24px;
+  }
+  .container .case #skill h2 {
+    font: 40px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 90px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #skill h2 img {
+    padding-right: 8px;
+  }
+  .container .case #skill .progress-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .case #skill .progress-main .col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .container .case #skill .progress-main .col-6 .pad-top {
+    padding-top: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case .border {
+    width: 90%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 80%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border {
+    width: 90%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case2 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 65%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 {
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 h4 {
+    font: 20px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border {
+    width: 90%;
+    height: 12px;
+    border: 2px #607EFF solid;
+    border-radius: 100px;
+    position: relative;
+  }
+  .container .case #skill .progress-main .col-6 .case3 .border:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 75%;
+    height: 15px;
+    background: #607EFF;
+    border-radius: 100px;
+  }
+  .container .case #inter h2 {
+    font: 40px "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 55px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .container .case #inter h2 img {
+    padding-right: 8px;
+  }
+  .container .case #inter p {
+    font: 16px "Open Sans", sans-serif;
+    color: #707070;
+    margin: 0;
+    padding-bottom: 100px;
+    line-height: 24px;
+  }
+  #scrollToTopButton {
+    position: fixed;
+    bottom: 53px;
+    right: 53px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(-75deg, #9C4FFF 0%, #607EFF 100%);
+    font-size: xx-large;
+    outline: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #scrollToTopButton.show {
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1141px) {
+  header img {
+    top: 75%;
+    left: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
