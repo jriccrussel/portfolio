@@ -1,0 +1,125 @@
+main{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    margin: auto;
+}
+
+.hero-main{
+    .hero-container{
+        .hero-badge{
+            background-size: 3.5vw;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-image: url("../../assets/img/j-logo.svg");
+            @media screen and (max-width: 800px) {
+                background-size: 8.5vw;
+            }
+            @media screen and (max-width: 428px) {
+                background-size: 10vw;
+            }
+   
+            .hero-badge_text{
+                will-change: transform;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-image: url("../../assets/img/spin.svg");
+                animation: rotate 20s linear infinite;
+            }
+        }
+
+        .hero-name{
+            p {
+            }
+        }
+
+        .hero-title {
+            white-space: nowrap;
+            h2 {
+            }
+        }
+    }
+}
+
+.herotwo-main{
+    .herotwo-wrapper{     
+        .left{
+            .herotwo-left{       
+                .hero-yr{
+                    flex: 0 1 auto;
+                    align-self: auto;
+                }    
+
+                .hero-name{
+                    flex: 0 1 auto;
+                    align-self: auto;
+                }
+
+                .herotwo-badge{                        
+                    flex: 0 1 auto;
+                    align-self: auto;
+                    background-size: 3.5vw;
+                    background-repeat: no-repeat;
+                    background-position: 50%;
+                    background-image: url("../../assets/img/j-logo.svg");
+                    @media screen and (max-width: 1024px) {
+                        background-size: 5vw;
+                    }
+                    @media screen and (max-width: 428px) {
+                        background-size: 8vw;
+                    }
+           
+                    .herotwo-badge-text{
+                        will-change: transform;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: 50%;
+                        background-image: url("../../assets/img/spin.svg");
+                        animation: rotate 20s linear infinite;
+                    }
+                }
+
+                .hero-details{
+                    flex: 1 1 auto;
+                    align-self: auto;
+                }
+
+                .hero-pos{
+                    flex: 0 1 auto;
+                    align-self: auto;
+                }
+            }
+        }
+
+        .right{
+            .herotwo-right{
+                .herotwo-r-wrapper{
+                    .herotwo-scroll{                        
+                        animation: loading 1s linear infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes loading {
+    to {
+      opacity: 0;
+    }
+}
+
+@keyframes loading {
+    to {
+      opacity: 0;
+    }
+}
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+}

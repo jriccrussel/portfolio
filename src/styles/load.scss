@@ -1,0 +1,14 @@
+.a-loader {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  position: fixed;
+  overflow: hidden;
+  cursor: wait;
+  color: #fff;
+  background: #000;
+  will-change: transform;
+    
+}

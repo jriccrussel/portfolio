@@ -1,0 +1,43 @@
+.about-main{
+    .about-container{
+        @media screen and (max-width: 1024px){
+            justify-content: space-between;
+        }
+        
+        .about-left{
+            flex-basis: 24vw;
+            margin: 0 8.33vw 0 16.66vw;
+            
+            @media screen and (max-width: 1367px){
+                flex-basis: 24vw;
+                margin: 0 8.33vw 0 13.66vw;
+            }
+
+            @media screen and (max-width: 1024px){
+                margin: 0;             
+                flex-basis: 45%;
+            }
+            
+            @media screen and (max-width: 834px) {
+                flex-basis: unset;
+                margin: 0;
+            }
+        }
+
+        .about-right{
+            flex-basis: 23.5vw;
+
+            @media screen and (max-width: 1367px){
+                flex-basis: 30vw;
+            }
+
+            @media screen and (max-width: 1024px){                
+                flex-basis: 50%;
+            }
+            @media screen and (max-width: 834px) {
+                flex-basis: unset;
+                margin: 0;
+            }
+        }
+    }
+}

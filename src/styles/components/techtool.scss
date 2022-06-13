@@ -1,0 +1,77 @@
+.tech-main{
+    .tech-wrapper{
+        .tech-container{
+
+        }
+
+        .tech-apps-main{
+
+            img{
+                user-drag: none;
+                pointer-events: none;
+            }
+            // margin center
+            .nextjs, .typescript, .styledcomp, .tailwind, .css, .git, .bitbucket, .shopify {
+                margin: 0 3.698vw;
+
+                @media screen and (max-width: 1024px) {
+                    margin: 0 6vw;
+                }
+            }
+
+            // margin top 
+            .gsap, .styledcomp, .tailwind, .sass, .html, .css, .git, .github, .gitlab, .bitbucket, .shopify, .wordpress{
+                margin-top: 4.688vw;
+            }
+
+            // 1024px
+            // margin left
+            .reactjs, .gsap, .html, .gitlab{
+                margin-right: 3vw;
+                @media screen and (max-width: 1024px) {
+                    margin-right: 4vw;
+                }
+            }
+
+            // margin right
+            .javascript, .sass, .github, .wordpress{
+                margin-left: 3vw;
+                @media screen and (max-width: 1024px) {
+                    margin-left: 4vw;
+                }
+            }
+
+            // 834px
+            // margin left
+            .reactjs, .javascript, .tailwind, .css, .gitlab, .wordpress, .photoshop, .figma{
+                @media screen and (max-width:835px) {
+                    margin: 0;
+                    margin-right: 4vw;
+                }
+            }
+
+            // margin right
+            .typescript, .styledcomp, .html, .github, .shopify, .adobexd{
+                @media screen and (max-width:835px){
+                    margin: 0;
+                    margin-left: 4vw;    
+                }
+            }
+
+            // margin center
+            .nextjs, .gsap, .sass, .git, .bitbucket, .illustrator{
+                @media screen and (max-width:835px){
+                    margin: 0;
+                    margin: 0 6vw;
+                }
+            }
+
+            // margin top
+            .javascript, .gsap, .styledcomp, .tailwind, .sass, .html, .css, .git, .github, .gitlab, .bitbucket, .shopify, .wordpress, .figma{
+                @media screen and (max-width:835px){
+                    margin-top: 8vw;                
+                }
+            }
+        }
+    }
+}
