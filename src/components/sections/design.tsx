@@ -27,7 +27,7 @@ export const DesignTools = () => {
                                 >
                                     <img 
                                         className="ssm:h-[18vw] ssm:w-[18vw] tblg:h-[20vw] tblg:w-[20vw] h-[10.5vw] w-[10.5vw] my-[0] mx-[auto] object-contain"
-                                        src={img.src} 
+                                        src={img} 
                                         alt="" 
                                     />
                                     <p 

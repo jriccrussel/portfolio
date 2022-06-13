@@ -48,12 +48,12 @@ export const ProjectItem = () => {
                                 <div className="tblg:w-[100%] tblg:h-[115vw] tblg:order-1 order-2 w-[48vw] h-[69.55vw] relative overflow-hidden prj-img">
                                     <img
                                         className="tblg:w-[100%] tblg:hidden top-[0] left-0 w-[100%] h-[100%] absolute block object-cover img-src"
-                                        src={img.src}
+                                        src={img}
                                         alt=""
                                     />
                                     <img
                                         className="tblg:w-[100%] tblg:block top-[0] left-0 w-[100%] h-[100%] absolute hidden object-cover img-two-src"
-                                        src={img.src}
+                                        src={img}
                                         alt=""
                                     />
                                 </div>

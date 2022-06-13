@@ -28,7 +28,7 @@ export const TechTools = () => {
                                 >
                                     <img 
                                         className="smd:h-[18vw] smd:w-[18vw] tblg:h-[20vw] tblg:w-[20vw] h-[12.188vw] w-[12.188vw] my-[0] mx-[auto] object-contain"
-                                        src={img.src} 
+                                        src={img} 
                                         alt="" 
                                     />
                                     <p 
