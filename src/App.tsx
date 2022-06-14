@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <div className="body-container">
-        <Loader />
+        {/* <Loader /> */}
         <main className="main-container" data-scroll-container>
           <div className="relative main-wrapper">
             <HeroTri />

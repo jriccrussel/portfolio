@@ -51,7 +51,7 @@ export const Footer = () => {
                 <p
                     className='xs:text-[3.590vw] xs:leading-[5.25vw] ssm:text-[3.398vw] ssm:leading-[5vw] smd:text-[3.271vw] smd:leading-[4.525vw] tblg:text-[2.398vw] tblg:leading-[3.525vw] tbxxlg:text-[1.367vw] pcsm:text-[1.250vw] pclg:text-[1.146vw] pclg:leading-[1.825vw] font-light text-[1.042vw] leading-[1.563vw] tracking-[0.026vw]'
                 >// Made with<br/>
-                NextJs<br/>
+                React<br/>
                 Typescript<br/>
                 Locomotive Scroll<br/>
                 GSAP</p>
