@@ -43,25 +43,25 @@ export const initLocomotiveScroll = async () => {
   })
   
   // Change background
-  // const updateBodyColor = color => {
-  //   document.documentElement.style.setProperty("--bg-color", color)
-  // }  
+  const updateBodyColor = color => {
+    document.documentElement.style.setProperty("--bg-color", color)
+  }  
 
-  // function initChangeBackground() {
+  function initChangeBackground() {
   
-  //   selectAll([".proj-apps-main .proj-item-main", ".tech-main", ".tiles--darker", ".about-main", ".content--feature"]).forEach(project => {
-  //     let newColor = project.getAttribute("data-color")
+    selectAll([".proj-apps-main .proj-item-main", ".tech-main", ".tiles--darker", ".about-main", ".content--feature"]).forEach(project => {
+      let newColor = project.getAttribute("data-color")
   
-  //     ScrollTrigger.create({
-  //       scroller: scrollContainer,
-  //       trigger: project,
-  //       start: "top 50%",
-  //       end: `+=${project.clientHeight}`,  
-  //       onEnter: () => updateBodyColor(newColor),  
-  //       onEnterBack: () => updateBodyColor(newColor)
-  //     })
-  //   })
-  // }
+      ScrollTrigger.create({
+        scroller: scrollContainer,
+        trigger: project,
+        start: "top 50%",
+        end: `+=${project.clientHeight}`,  
+        onEnter: () => updateBodyColor(newColor),  
+        onEnterBack: () => updateBodyColor(newColor)
+      })
+    })
+  }
 
   // Change text color and background
   const initChangeTxt = () => {
@@ -213,7 +213,7 @@ export const initLocomotiveScroll = async () => {
 
 
   window.addEventListener("load", function() {
-    // initChangeBackground()
+    initChangeBackground()
 
     initChangeTxt()
 
@@ -225,7 +225,7 @@ export const initLocomotiveScroll = async () => {
 
     setTimeout(() => {
       initLoader()
-    }, 2000)
+    }, 1000)
 
     ScrollTrigger.addEventListener("refresh", () => scroller.update())
     ScrollTrigger.refresh()

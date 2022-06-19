@@ -6,7 +6,7 @@
             &:first-child {
                 padding-left: 16.66vw;
 
-                @media screen and (max-width: 834px) {
+                @media screen and (max-width: 835px) {
                     order: 2;
                     flex-basis: 85%;
                     padding-left: unset;
@@ -18,7 +18,7 @@
                     display: block;
                     width: 16.66vw;
                     height: 1px;
-                    background-color: #000;
+                    background-color: #fff;
                     top: 50%;
                     transform: translateY(-50%);
                     // right: -10%;
@@ -44,7 +44,7 @@
 
                     }
 
-                    @media screen and (max-width: 834px) {
+                    @media screen and (max-width: 835px) {
                         right: -11.68%;
                     }
 
@@ -72,7 +72,7 @@
             &:nth-child(2) {
                 padding-left: 8.33vw;
 
-                @media screen and (max-width: 834px) {
+                @media screen and (max-width: 835px) {
                     flex-basis: 15%;
                     padding-left: unset;
 
@@ -112,7 +112,7 @@
     .prj-wrapper {
         // width: 33.33vw;
         // height: 69.55vw;
-        @media screen and (max-width: 834px) {
+        @media screen and (max-width: 835px) {
             // order: 2;
             // width: unset;
             // height: unset;
@@ -127,14 +127,14 @@
         //     color: var(--text-color);
         //     }
         // }
-        @media screen and (max-width: 834px) {
+        @media screen and (max-width: 835px) {
             // padding: 0;
             // margin: 8.33vw 0 0;
         }
 
         .prj-content {
             // margin-bottom: 2.8vw;
-            @media screen and (max-width: 834px) {                
+            @media screen and (max-width: 835px) {                
                 margin-bottom: 4.16vw;
             }
         }
@@ -144,7 +144,7 @@
         .prj-link {
             // display: block;
             // margin-top: 2.8vw;
-            @media screen and (max-width: 834px) {
+            @media screen and (max-width: 835px) {
                 // margin: 8.33vw 0;
             }
 
@@ -155,7 +155,7 @@
                 top: 50%;
                 width: 8vw;
                 height: 1px;
-                background: #111;
+                background: #fff;
             }
             span {
                 transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -178,7 +178,7 @@
             // line-height: 13.194vw;
             writing-mode: vertical-rl;
             transform: scale(-1);
-            @media only screen and (max-width: 834px){
+            @media only screen and (max-width: 835px){
                 // order: 3;
                 // margin-top: 8.33vw;
                 // font-size: 15vw;
@@ -196,7 +196,7 @@
         // height: 69.55vw;
         // overflow: hidden;
         will-change: transform;
-        @media screen and (max-width: 834px) {
+        @media screen and (max-width: 835px) {
             // order: 1;
             // width: 100%;
             // height: 120vw;
@@ -206,7 +206,7 @@
             will-change: transform;
             user-drag: none;
             pointer-events: none;
-            @media screen and (max-width: 834px) {
+            @media screen and (max-width: 835px) {
                 // top: -25%;
                 // height: 105%;
             }

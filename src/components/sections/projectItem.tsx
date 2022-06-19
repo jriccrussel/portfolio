@@ -13,7 +13,7 @@ export const ProjectItem = () => {
                         key={id}
                         className="smd:mt-[16vw] tblg:py-[5vw] tblg:mt-[10vw] py-[0] h-[fit-content] mt-[11vw] relative proj-item-main"
                         data-bgcolor={bg}
-                        data-textcolor="#111"
+                        data-textcolor="#fff"
                     >
                         <div className="project-container">
                             <div className="flex flex-wrap z-[1] relative proj-head">

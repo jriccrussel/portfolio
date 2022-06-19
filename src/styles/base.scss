@@ -344,6 +344,9 @@ html.has-scroll-dragging {
 	transform-origin: center right;
 	transition: transform 0.3s, opacity 0.3s;
 	opacity: 0; 
+	// @media screen and (max-width: 835px) {
+	// 	opacity: 1;
+	// }
 }
 .c-scrollbar:hover {
 	transform: scaleX(1.45); 
@@ -363,6 +366,7 @@ html.has-scroll-dragging {
 	margin: 2px;
 	cursor: -webkit-grab;
 	cursor: grab; 
+    margin: 2px;
 }
 .has-scroll-dragging .c-scrollbar_thumb {
 	cursor: -webkit-grabbing;
@@ -525,7 +529,8 @@ html.has-scroll-dragging {
 		font-family: span, serif;
 		font-weight: 200;
 		font-style: italic;
-		color: #211f1b;
+		// color: #211f1b;
+		color: #717171;
 	}
 	
 	.content__breakout--big {

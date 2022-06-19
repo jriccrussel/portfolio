@@ -9,7 +9,7 @@ export const DesignTools = () => {
 
     return (
         <>
-            <section className="pb-[13vw] tech-main" data-color="#f3f3f1">
+            <section className="pb-[13vw] tech-main" data-color="#111" data-textcolor="#fff">
                 <div className="tech-wrapper">
                     <div className="flex flex-wrap justify-between tech-container">
                         <h2 className='smd:text-[13.551vw] smd:leading-[[13.551vw]] tblg:text-[8.825vw] tblg:leading-[8vw] font-roboto font-medium text-[7.292vw] leading-[7vw]'>Tools</h2>

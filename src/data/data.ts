@@ -1,18 +1,18 @@
 // Logo
 import reactjs from '../assets/img/react.png'
-import nextjs from '../assets/img/nextjs.png'
+import nextjs from '../assets/img/nextjs-wht.png'
 import typescript from '../assets/img/typescript.png'
 import javascript from '../assets/img/javascript.png'
-import gsap from '../assets/img/gsap.png'
-import styledComp from '../assets/img/styled-components.png'
-import tailwind from '../assets/img/tailwindcss.png'
+import gsap from '../assets/img/gsap-wht.png'
+import styledComp from '../assets/img/styled-components-wht.png'
+import tailwind from '../assets/img/tailwindcss-wht.png'
 import sass from '../assets/img/sass.png'
-import html from '../assets/img/html5.png'
-import css from '../assets/img/css3.png'
-import git from '../assets/img/git.png'
-import github from '../assets/img/github.png'
-import gitlab from '../assets/img/gitlab.png'
-import bitbucket from '../assets/img/bitbucket.png'
+import html from '../assets/img/html5-wht.png'
+import css from '../assets/img/css3-wht.png'
+import git from '../assets/img/git-wht.png'
+import github from '../assets/img/github-wht.png'
+import gitlab from '../assets/img/gitlab-wht.png'
+import bitbucket from '../assets/img/bitbucket-wht.png'
 import shopify from '../assets/img/shopify.png'
 import wordpress from '../assets/img/wordpress.png'
 import photoshop from '../assets/img/photoshop.png'
@@ -232,7 +232,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery',
         link: 'https://k-syu.com/cowscrown/index.html',
         img: proj1,
-        bg: '#f5e5b1'
+        // bg: '#f5e5b1'
+        bg: '#111'
     },
     {   
         id: 2,
@@ -243,7 +244,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://mizu-shinkyu.com/',
         img: proj2,        
-        bg: '#e1e7f1'
+        // bg: '#e1e7f1'
+        bg: '#111'
     },
     {   
         id: 3,
@@ -254,7 +256,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://hermano.co.jp/',
         img: proj3,
-        bg: '#a3b9b4'
+        // bg: '#a3b9b4'
+        bg: '#111'
     },
     {   
         id: 4,
@@ -265,7 +268,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://www.morita-auto.co.jp/',
         img: proj4,
-        bg: '#f5e5b1'
+        // bg: '#f5e5b1'
+        bg: '#111'
     },
     {   
         id: 5,
@@ -276,7 +280,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery',
         link: 'https://www.e-horita.co.jp/',
         img: proj5,
-        bg: '#f3f3f1'
+        // bg: '#f3f3f1'
+        bg: '#111'
     },
     {   
         id: 6,
@@ -287,7 +292,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://bukkaketei.com/',
         img: proj7,        
-        bg: '#e1e7f1'
+        // bg: '#e1e7f1'
+        bg: '#111'
     },
     {   
         id: 7,
@@ -297,7 +303,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://bukkaketei.com/',
         img: proj6,
-        bg: '#f3f3f1'
+        // bg: '#f3f3f1'
+        bg: '#111'
     },
     {   
         id: 8,
@@ -308,7 +315,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery',
         link: 'http://mystique-group.co.jp/',
         img: proj8,
-        bg: '#f3f3f1'
+        // bg: '#f3f3f1'
+        bg: '#111'
     },
     {   
         id: 9,
@@ -319,7 +327,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery',
         link: 'https://reunirgracias.iot-mansion.jp/',
         img: proj9,
-        bg: '#e1e7f1'
+        // bg: '#e1e7f1'
+        bg: '#111'
     },
     {   
         id: 10,
@@ -330,7 +339,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery',
         link: 'http://www.suma-biz.com/',
         img: proj10,        
-        bg: '#e1e7f1'
+        // bg: '#e1e7f1'
+        bg: '#111'
     },
     {   
         id: 11,
@@ -341,7 +351,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://kimono-houmi.com/',
         img: proj11,
-        bg: '#f5e5b1'
+        // bg: '#f5e5b1'
+        bg: '#111'
     },
     {   
         id: 12,
@@ -352,7 +363,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery',
         link: 'https://july1st.tokyo/dakishimeru/',
         img: proj12,      
-        bg: '#f3f3f1'  
+        // bg: '#f3f3f1'  
+        bg: '#111'
     },
     {   
         id: 13,
@@ -363,7 +375,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Sass, Javascript, jQuery, Wordpress',
         link: 'https://osaka-fugetsu.com/',
         img: proj13,
-        bg: '#f5e5b1'
+        // bg: '#f5e5b1'
+        bg: '#111'
     },
     {   
         id: 14,
@@ -374,7 +387,8 @@ export const projects: Array<IProjects> = [
         language: 'HTML5, CSS3, Javascript, jQuery, Shopify',
         link: 'https://purebellavita.com/',
         img: proj14,
-        bg: '#a3b9b4'
+        // bg: '#a3b9b4'
+        bg: '#111'
     },
     {   
         id: 15,
@@ -385,7 +399,8 @@ export const projects: Array<IProjects> = [
         language: 'NextJs, Typescript, Javascript, GSAP, TailwindCSS, Sass',
         link: 'https://www.dreamhomescorp.com/',
         img: proj15,
-        bg: '#f5e5b1'
+        // bg: '#f5e5b1'
+        bg: '#111'
     },
     {   
         id: 16,
@@ -396,6 +411,7 @@ export const projects: Array<IProjects> = [
         language: 'NextJs, Typescript, Javascript, GSAP, TailwindCSS, Sass',
         link: 'https://jsx.gorentals.com/',
         img: proj16,      
-        bg: '#e1e7f1'
+        // bg: '#e1e7f1'
+        bg: '#111'
     },      
 ]
