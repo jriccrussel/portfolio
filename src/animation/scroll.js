@@ -83,7 +83,7 @@ export const initLocomotiveScroll = async () => {
         onLeaveBack: () =>
           gsap.to("body", {
             backgroundColor: prevBg,
-            color: prevText,
+            color: prevText, 
             overwrite: "auto"
           })
       })
