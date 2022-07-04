@@ -23,7 +23,7 @@ module.exports = {
         'tblg': { 'max': '835px' },
         'tbmd': { 'max': '800px' },
         'tbsm': { 'max': '768px' },
-        'slg': { 'max': '480px' },
+        'slg': { 'max': '492px' },
         'smd': { 'max': '428px' },
         'ssm': { 'max': '412px' },
         'sp': { 'max': '412px' },

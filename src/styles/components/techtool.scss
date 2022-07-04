@@ -15,7 +15,7 @@
                 margin: 0 3.698vw;
 
                 @media screen and (max-width: 1024px) {
-                    margin: 0 6vw;
+                    margin: 0 5vw;
                 }
             }
 
@@ -48,6 +48,11 @@
                     margin: 0;
                     margin-right: 4vw;
                 }
+                
+                @media screen and (max-width: 492px){
+                    margin: 0;
+                    margin: 0 0vw;
+                }
             }
 
             // margin right
@@ -56,14 +61,29 @@
                     margin: 0;
                     margin-left: 4vw;    
                 }
+                
+                @media screen and (max-width: 492px){
+                    margin: 0;
+                    margin: 0 0vw;
+                }
             }
 
             // margin center
             .nextjs, .gsap, .sass, .git, .bitbucket, .illustrator{
+                // @media screen and (max-width:1024px){
+                //     margin: 0;
+                //     margin: 0 4vw;
+                // }
                 @media screen and (max-width:835px){
                     margin: 0;
-                    margin: 0 6vw;
+                    margin: 0 4vw;
                 }
+                
+                // @media screen and (max-width: 492px){
+                //     margin: 0;
+                //     margin: 0 0vw;
+                // }
+
             }
 
             // margin top

@@ -101,7 +101,7 @@ export const initLocomotiveScroll = async () => {
           trigger: section,
           scrub: true
         },
-        top: "35%",
+        top: "12%",
         ease: "none"
       })
     })

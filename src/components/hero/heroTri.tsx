@@ -66,17 +66,17 @@ export const HeroTri = () => {
             <div className="w-[100%] h-[100vh] flex justify-between flex-wrap herotwo-wrapper">
                 <div className="tblg:w-[100%] tblg:h-[100%] w-[50%] left">
                     <div className="w-[100%] h-[100%] flex relative flex-col items-start content-start flex-wrap justify-start herotwo-left">
-                        <p className='smd:text-[4.206vw] smd:leading-[5.825vw] smd:mt-[5vw] tblg:text-[2.398vw] tblg:pt-[2.635vw] tbxxlg:mt-[1.125vw] tbxxlg:pt-[0] tbxxlg:text-[1.953vw] pcsm:pt-[2.635vw] text-[1.250vw] font-roboto font-medium pt-[2.135vw] tracking-wider hero-yr'>{year}</p>
+                        <p className='xs:text-[4.590vw] slg:text-[4.684vw] tblg:text-[2.758vw] tblg:pt-[2.635vw] tbxxlg:mt-[1.125vw] tbxxlg:pt-[0] tbxxlg:text-[1.953vw] pcsm:pt-[2.635vw] text-[1.250vw] font-roboto font-medium pt-[2.135vw] tracking-wider hero-yr'>{year}</p>
                         <p className='ssm:text-[12.525vw] ssm:leading-[13vw] smd:text-[11.525vw] smd:mt-[3vw] smd:leading-[12vw] tbmd:text-[10vw] tbmd:leading-[9.5vw] tblg:leading-[9vw] tblg:text-[9vw] tbxxlg:text-[5vw] tbxxlg:leading-[5vw] mt-[0.875vw] mb-[1vw] font-roboto font-bold leading-[3vw] text-[2.813vw] hero-name'>Jeffone Audric <br/>Russel.</p>
                         <div className="ssm:w-[60vw] ssm:h-[60vw] smd:w-[55vw] smd:h-[55vw] smd:mt-[3vw] tbmd:w-[35vw] tbmd:h-[35vw] tblg:w-[30vw] tblg:h-[30vw] tbxxlg:w-[20vw] tbxxlg:h-[20vw] w-[15vw] h-[15vw] relative herotri-badge">
                             <div className="top-[8%] left-[8%] right-[8%] bottom-[8%] absolute herotri-badge-text"></div>
                         </div>                                
                         <div className="smd:bottom-[11vw] tblg:bottom-[5.5vw] tbxxlg:bottom-[3.5vw] pcsm:bottom-[3vw] pclg::bottom-[0.15vw] bottom-[3.05vw] absolute hero-absolute">
-                            <p className='smd:text-[4.206vw] smd:leading-[5.825vw] tblg:text-[2.125vw] tblg:leading-[3vw] tbxxlg:text-[1.758vw] tbxxlg:leading-[2.325vw] pcsm:text-[1.250vw] pcsm:leading-[1.757vw] leading-[1.563vw] text-[1.042vw] tracking-wide font-roboto hero-details'>I make creative, impactful <br/>
+                            <p className='xs:text-[4.590vw] slg:text-[4.684vw] slg:leading-[7vw] slg:font-normal tblg:text-[2.758vw] tblg:leading-[4.5vw] tbxxlg:text-[1.758vw] tbxxlg:leading-[2.325vw] pcsm:text-[1.250vw] pcsm:leading-[1.757vw] leading-[1.563vw] text-[1.042vw] tracking-wide font-roboto hero-details'>I make creative, impactful <br/>
                             web products that give meaningful<br/>
                             stories and big ideas as a way to<br/>
                             connect with audiences.</p>
-                            <p className='smd:text-[4.673vw] smd:mt-[5vw] smd:leading-[100%] tblg:mt-[5vw] tblg:text-[2.398vw] tbxlg:mt-[4vw] tbxxlg:text-[1.953vw] tbxxlg:mt-[2.25vw] pcsm:mt-[4vw] pclg:mt-[4.775vw] mt-[7.125vw] font-bold font-roboto leading-[1.458vw] text-[1.250vw] tracking-wider hero-pos'>FRONT END ENGINEER</p>                                    
+                            <p className='xs:text-[4.684vw] slg:text-[5.092vw] tblg:mt-[5vw] tblg:text-[3.118vw] tbxlg:mt-[4vw] tbxxlg:text-[1.953vw] tbxxlg:mt-[2.25vw] pcsm:mt-[4vw] pclg:mt-[4.775vw] mt-[7.125vw] font-bold font-roboto leading-[1.458vw] text-[1.250vw] tracking-wider hero-pos'>FRONT END ENGINEER</p>                                    
                         </div>
                     </div>
                 </div>
