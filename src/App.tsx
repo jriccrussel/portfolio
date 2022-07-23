@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState, useLayoutEffect } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { AppContext } from './context/context'
@@ -17,7 +17,7 @@ function App() {
   const context = useContext(AppContext)
   const { states }:any = context
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     // console.log(states)
     initLocomotiveScroll()
   }, [])

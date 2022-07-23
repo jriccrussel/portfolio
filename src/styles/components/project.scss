@@ -160,7 +160,11 @@
                 transform: translateY(-50%);
                 
                 @media screen and (max-width: 1025px) {
-                    height: 2px;
+                    height: 1px;
+                }
+                
+                @media screen and (max-width: 493px) {
+                    top: 43%;
                 }
             }
             span {
