@@ -157,9 +157,15 @@
                 width: 8vw;
                 height: 1px;
                 background: #fff;
+                transform: translateY(-50%);
+                
+                @media screen and (max-width: 1025px) {
+                    height: 2px;
+                }
             }
             span {
                 transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+                transform: translateY(-50%);
             }
         }
 

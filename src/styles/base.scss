@@ -105,10 +105,10 @@ main {
 .tiles--columns-rotated {
 	--tiles-height: 100vmax;
 	@media screen and (max-width: 835px) {
-		--tiles-height: 150vmax;		
+		--tiles-height: 100vmax;		
 	}
 	@media screen and (max-width: 492px) {
-		--tiles-height: 120vmax;		
+		--tiles-height: 100vmax;		
 	}
 	// @media screen and (max-width: 413px) {
 	// 	--tiles-height: 135vmax;		
@@ -271,7 +271,7 @@ main {
 }
 
 .tiles--darker .tiles__line-img {
-	opacity: 0.7;
+	opacity: 0.4;
 }
 
 .tiles__title {
@@ -464,11 +464,14 @@ html.has-scroll-dragging {
 	@media screen and (max-width: 801px) {
 		background-size: 14vw;
 	}
+	@media screen and (max-width: 492px) {
+		background-size: 17vw;
+	}
 	@media screen and (max-width: 428px) {
 		background-size: 20vw;
 	}
-	@media screen and (max-width: 412px) {
-		background-size: 23vw;
+	@media screen and (max-width: 413px) {
+		background-size: 19vw;
 	}
 
 	.herotri-badge-text{

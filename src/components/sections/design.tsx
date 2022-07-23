@@ -32,7 +32,7 @@ export const DesignTools = () => {
                                         alt="" 
                                     />
                                     <p 
-                                        className='slg:break-words slg:text-[3.7vw] tblg:text-[2.758vw] tblg:mt-[2.35vw] tbxxlg:font-normal tbxxlg:text-[1.367vw] font-roboto font-normal tracking-wide mt-[1.563vw] text-[1.146vw]'
+                                        className='xs:text-[3.6vw] smd:text-[3.4vw] slg:mt-[4vw] slg:text-[3vw] slg:break-words tblg:text-[2.5vw] tblg:mt-[2.35vw] tbxxlg:font-normal tbxxlg:text-[1.88vw] tbxxlg:leading-[3vw] font-roboto font-normal tracking-wide mt-[1.563vw] text-[1.146vw]'
                                     >{txt}</p>
                                 </div>
                             )
