@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7371a815.css",
-    "main.js": "/portfolio/static/js/main.ce661c30.js",
+    "main.css": "/portfolio/static/css/main.0f2c4ff1.css",
+    "main.js": "/portfolio/static/js/main.ef9477ee.js",
     "static/js/583.369707a9.chunk.js": "/portfolio/static/js/583.369707a9.chunk.js",
     "static/media/prj6.jpg": "/portfolio/static/media/prj6.059402d2ed9c18fb87d9.jpg",
     "static/media/prj2.jpg": "/portfolio/static/media/prj2.ff035204031913e086d6.jpg",
@@ -18,22 +18,27 @@
     "static/media/prj1.jpg": "/portfolio/static/media/prj1.994b6ec1b4b1095584b1.jpg",
     "static/media/prj5.jpg": "/portfolio/static/media/prj5.1a0a70ec29ef2fed377e.jpg",
     "static/media/prj7.jpg": "/portfolio/static/media/prj7.56a3e35d6aed5aa64a28.jpg",
+    "static/media/insomnia.png": "/portfolio/static/media/insomnia.071813a35d3a047d99fc.png",
+    "static/media/nodejs-wht.png": "/portfolio/static/media/nodejs-wht.6f02459085ae9e4b0c3b.png",
     "static/media/prj3.jpg": "/portfolio/static/media/prj3.abff7fb43cfbb8daacb3.jpg",
     "static/media/hero-image2.jpg": "/portfolio/static/media/hero-image2.a5669b8d243c8e023a32.jpg",
+    "static/media/express-1-wht.png": "/portfolio/static/media/express-1-wht.776437da8358540e2f34.png",
     "static/media/styled-components-wht.png": "/portfolio/static/media/styled-components-wht.224a35330d89427c6275.png",
     "static/media/spin-white.svg": "/portfolio/static/media/spin-white.33f6a30d7e2998df5d23.svg",
     "static/media/spin.svg": "/portfolio/static/media/spin.74da85666f2775a6502f.svg",
+    "static/media/rethinkdb.png": "/portfolio/static/media/rethinkdb.e21d717c9f3059b5d878.png",
     "static/media/tailwindcss-wht.png": "/portfolio/static/media/tailwindcss-wht.966298c03a0ed4944d5c.png",
     "static/media/react.png": "/portfolio/static/media/react.df2a22afdf2847513425.png",
+    "static/media/restful-api.png": "/portfolio/static/media/restful-api.3760451bdcf2b9ba6f08.png",
     "static/media/logo-white.svg": "/portfolio/static/media/logo-white.2fa847bd986f2da85ad1.svg",
     "static/media/j-logo.svg": "/portfolio/static/media/j-logo.9ce01b0c993d43a7c56a.svg",
     "index.html": "/portfolio/index.html",
-    "main.7371a815.css.map": "/portfolio/static/css/main.7371a815.css.map",
-    "main.ce661c30.js.map": "/portfolio/static/js/main.ce661c30.js.map",
+    "main.0f2c4ff1.css.map": "/portfolio/static/css/main.0f2c4ff1.css.map",
+    "main.ef9477ee.js.map": "/portfolio/static/js/main.ef9477ee.js.map",
     "583.369707a9.chunk.js.map": "/portfolio/static/js/583.369707a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7371a815.css",
-    "static/js/main.ce661c30.js"
+    "static/css/main.0f2c4ff1.css",
+    "static/js/main.ef9477ee.js"
   ]
 }
