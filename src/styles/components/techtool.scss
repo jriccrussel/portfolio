@@ -11,7 +11,7 @@
                 pointer-events: none;
             }
             // margin center
-            .nextjs, .typescript, .styledcomp, .tailwind, .css, .git, .bitbucket, .shopify {
+            .rethinkdb, .nodejs, .git, .github, .shopify, .postman, .insomnia, .javascript, .axios, .tailwind, .sass, .shopify, .wordpress {
                 margin: 0 3.698vw;
 
                 @media screen and (max-width: 1024px) {
@@ -20,13 +20,13 @@
             }
 
             // margin top 
-            .gsap, .styledcomp, .tailwind, .sass, .html, .css, .git, .github, .gitlab, .bitbucket, .shopify, .wordpress{
+            .nextjs, .typescript, .javascript, .gsap, .styledcomp, .tailwind, .sass, .html, .css, .git, .github, .gitlab, .bitbucket, .shopify, .wordpress, .insomnia, .postman, .axios, .lodash, .restful{
                 margin-top: 4.688vw;
             }
 
             // 1024px
             // margin left
-            .reactjs, .gsap, .html, .gitlab{
+            .reactjs, .gsap, .restful, .typescript, .css, .bitbucket, .styledcomp{
                 margin-right: 3vw;
                 @media screen and (max-width: 1024px) {
                     margin-right: 4vw;
@@ -34,7 +34,7 @@
             }
 
             // margin right
-            .javascript, .sass, .github, .wordpress{
+            .sass, .nextjs, .lodash, .gitlab, .empty, .html{
                 margin-left: 3vw;
                 @media screen and (max-width: 1024px) {
                     margin-left: 4vw;
@@ -43,7 +43,7 @@
 
             // 834px
             // margin left
-            .reactjs, .javascript, .tailwind, .css, .gitlab, .wordpress, .photoshop, .figma{
+            .reactjs, .github, .styledcomp, .javascript, .photoshop, .figma, .express, .postman, .html, .shopify{
                 @media screen and (max-width:835px) {
                     margin: 0;
                     margin-right: 4vw;
@@ -56,7 +56,7 @@
             }
 
             // margin right
-            .typescript, .styledcomp, .html, .github, .shopify, .adobexd{
+            .typescript, .adobexd, .nodejs, .insomnia, .typescript, .lodash, .sass, .git, .bitbucket{
                 @media screen and (max-width:835px){
                     margin: 0;
                     margin-left: 4vw;    
@@ -69,7 +69,7 @@
             }
 
             // margin center
-            .nextjs, .gsap, .sass, .git, .bitbucket, .illustrator{
+            .nextjs, .gsap, .illustrator, .restful, .nextjs, .axios, .tailwind, .css, .gitlab,  .wordpress{
                 // @media screen and (max-width:1024px){
                 //     margin: 0;
                 //     margin: 0 4vw;
@@ -87,7 +87,7 @@
             }
 
             // margin top
-            .javascript, .gsap, .styledcomp, .tailwind, .sass, .html, .css, .git, .github, .gitlab, .bitbucket, .shopify, .wordpress, .figma{
+            .javascript, .gsap, .styledcomp, .tailwind, .sass, .html, .css, .git, .github, .gitlab, .bitbucket, .shopify, .wordpress, .figma, .express, .restful, .insomnia, .postman, .nextjs, .typescript, .lodash, .axios{
                 @media screen and (max-width:835px){
                     margin-top: 8vw;                
                 }

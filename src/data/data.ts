@@ -19,6 +19,15 @@ import photoshop from '../assets/img/photoshop.png'
 import illustrator from '../assets/img/illustrator.png'
 import adobexd from '../assets/img/adboexd.png'
 import figma from '../assets/img/figma.png'
+import nodejs from '../assets/img/nodejs-wht.png'
+import express from '../assets/img/express-1-wht.png'
+import rethinkdb from '../assets/img/rethinkdb.png'
+import restful from '../assets/img/restful-api.png'
+import insomnia from '../assets/img/insomnia.png'
+import postman from '../assets/img/postman.png'
+import axios from '../assets/img/axios.png'
+import lodash from '../assets/img/lodash.png'
+import empty from '../assets/img/empty.png'
 // Project Image
 import proj1 from '../assets/img/prj1.jpg'
 import proj2 from '../assets/img/prj2.jpg'
@@ -72,93 +81,141 @@ export const techApps: Array<ITechApps> = [
     },
     {
         id: 2,
+        img: rethinkdb,
+        txt: 'RethinkDB',
+        classs: 'rethinkdb'
+    },
+    {
+        id: 3,
+        img: nodejs,
+        txt: 'Node JS',
+        classs: 'nodejs'
+    },
+    {
+        id: 4,
+        img: express,
+        txt: 'Express',
+        classs: 'express'
+    },
+    {
+        id: 5,
+        img: restful,
+        txt: 'RESTful API',
+        classs: 'restful'
+    },    
+    {
+        id: 6,
+        img: insomnia,
+        txt: 'Insomnia',
+        classs: 'insomnia'
+    },
+    {
+        id: 7,
+        img: postman,
+        txt: 'Postman',
+        classs: 'postman'
+    },
+    {
+        id: 8,
         img: nextjs,
         txt: 'NextJs',
         classs: 'nextjs'
     },
     {
-        id: 3,
+        id: 9,
         img: typescript,
         txt: 'Typescript',
         classs: 'typescript'
     },
     {
-        id: 4,
+        id: 10,
         img: javascript,
         txt: 'Javascript',
         classs: 'javascript'
+    },    
+    {
+        id: 11,
+        img: axios,
+        txt: 'Axios',
+        classs: 'axios'
     },
     {
-        id: 5,
-        img: gsap,
-        txt: 'GSAP',
-        classs: 'gsap'
+        id: 12,
+        img: lodash,
+        txt: 'Lodash',
+        classs: 'lodash'
     },
     {
-        id: 6,
+        id: 13,
         img: styledComp,
         txt: 'Styled Components',
         classs: 'styledcomp'
     },
     {
-        id: 7,
+        id: 14,
         img: tailwind,
         txt: 'Tailwind CSS',
         classs: 'tailwind'
     },
     {
-        id: 8,
+        id: 15,
         img: sass,
         txt: 'Sass',
         classs: 'sass'
     },
     {
-        id: 9,
+        id: 16,
         img: html,
         txt: 'HTML5',
         classs: 'html'
     },
     {
-        id: 10,
+        id: 17,
         img: css,
         txt: 'CSS 3',
         classs: 'css'
     },
     {
-        id: 11,
+        id: 18,
         img: git,
         txt: 'Git',
         classs: 'git'
     },
     {
-        id: 12,
+        id: 19,
         img: github,
         txt: 'Github',
         classs: 'github'
     },
     {
-        id: 13,
+        id: 20,
         img: gitlab,
         txt: 'Gitlab',
         classs: 'gitlab'
     },
     {
-        id: 14,
+        id: 21,
         img: bitbucket,
         txt: 'Bitbucket',
         classs: 'bitbucket'
     },
     {
-        id: 15,
+        id: 22,
         img: shopify,
         txt: 'Shopify',
         classs: 'shopify'
     },
     {
-        id: 16,
+        id: 23,
         img: wordpress,
         txt: 'Wordpress',
         classs: 'wordpress'
+    },
+    {
+        id: 24,
+        img: empty,
+        txt: '',
+        classs: 'empty'
     },
 ]
 
