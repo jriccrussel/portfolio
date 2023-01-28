@@ -41,7 +41,7 @@ export const Footer = () => {
                 >Email</a>
                 <a 
                     href='../../assets/doc/resume.pdf'
-                    download='Jeffone_Audric_Russel-Resume.pdf'
+                    download='RESUME-Jeffone_Audric_Russel.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='xs:text-[3.6vw] smd:text-[3.4vw] smd:mb-[3vw] slg:text-[3vw] slg:mt-[5vw] slg:mb-[5vw] smd:mt-[5vw] tblg:w-[33.3333333333%] tblg:mt-[2.5vw] tblg:mb-[1vw] tblg:text-[2vw] tblg:text-right tbxxlg:text-[1.6vw] pcsm:text-[1.250vw] pclg:text-[1.146vw] leading-[1.6] font-light text-[1.042vw] no-underline'
